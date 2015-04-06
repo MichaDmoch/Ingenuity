@@ -1,0 +1,657 @@
+﻿Log file open, 04/06/15 21:44:48
+LogInit:Display: Running engine for game: IngenuityBasic
+LogInit: Version: 4.7.4-0+++depot+UE4-Releases+4.7
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Mar 25 2015 02:32:27
+LogInit: Compiled with Visual C++: 18.00.31101.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2015.04.06-19.44.48:105][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.06-19.44.48:175][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.06-19.44.48:195][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.06-19.44.48:204][  0]LogInit: Object subsystem initialized
+[2015.04.06-19.44.48:206][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.06-19.44.48:206][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Github/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-19.44.48:206][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.06-19.44.48:206][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Github/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-19.44.48:206][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.06-19.44.48:206][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Github/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-19.44.48:206][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.06-19.44.48:206][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.06-19.44.48:212][  0]LogInit: Computer: TAZDINGO
+[2015.04.06-19.44.48:212][  0]LogInit: User: VolJin
+[2015.04.06-19.44.48:212][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.06-19.44.48:212][  0]LogInit: High frequency timer resolution =2.143486 MHz
+[2015.04.06-19.44.48:212][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.06-19.44.48:213][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.06-19.44.48:213][  0]LogMemory: Process Physical Memory: 45.64 MB used, 45.64 MB peak
+[2015.04.06-19.44.48:213][  0]LogMemory: Process Virtual Memory: 22.41 MB used, 22.41 MB peak
+[2015.04.06-19.44.48:213][  0]LogMemory: Physical Memory: 2890.83 MB used, 8108.79 MB total
+[2015.04.06-19.44.48:213][  0]LogMemory: Virtual Memory: 288.31 MB used, 134217728.00 MB total
+[2015.04.06-19.44.48:245][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.06-19.44.48:245][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 2 output[s]
+[2015.04.06-19.44.48:260][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 760M (Feature Level 11_0)
+[2015.04.06-19.44.48:260][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.04.06-19.44.48:262][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.06-19.44.48:262][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.06-19.44.48:262][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.06-19.44.48:267][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.06-19.44.48:280][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.06-19.44.48:343][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.06-19.44.48:429][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.06-19.44.48:429][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.06-19.44.48:517][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.06-19.44.50:577][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-19.44.51:010][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-19.44.51:059][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.06-19.44.51:107][  0]LogDerivedDataCache: Loaded boot cache 0.05s 40MB ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.06-19.44.51:108][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc
+[2015.04.06-19.44.51:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.06-19.44.51:108][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.06-19.44.51:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.06-19.44.51:108][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.04.06-19.44.51:120][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.04.06-19.44.51:120][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.04.06-19.44.51:120][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.04.06-19.44.51:384][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.06-19.44.51:384][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.06-19.44.51:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.06-19.44.51:866][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.06-19.44.52:581][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.06-19.44.52:739][  0]SourceControl: Info Source control is disabled
+[2015.04.06-19.44.52:739][  0]SourceControl: Info Source control is disabled
+[2015.04.06-19.44.52:739][  0]SourceControl: Info Source control is disabled
+[2015.04.06-19.44.52:739][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.06-19.44.52:739][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.06-19.44.52:745][  0]SourceControl: Info Source control is disabled
+[2015.04.06-19.44.52:901][  0]LogObj: 24371 objects as part of root set at end of initial load.
+[2015.04.06-19.44.52:901][  0]LogUObjectAllocator: 5175440 out of 0 bytes used by permanent object pool.
+[2015.04.06-19.44.52:975][  0]LogEngine: Initializing Engine...
+[2015.04.06-19.44.55:167][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.06-19.44.55:191][  0]LogInit: FAudioDevice initialized.
+[2015.04.06-19.44.55:217][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.06-19.44.55:249][  0]LogDerivedDataCache: Saved boot cache 0.03s 40MB ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.06-19.44.55:256][  0]LogInit: Texture streaming: Enabled
+[2015.04.06-19.44.55:335][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.06-19.44.55:335][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.4-0+++depot+UE4-Releases+4.7
+[2015.04.06-19.44.55:335][  0]LogAnalytics: SetUserId c98b79d14844094ad4256e87f54b579a|b11a4e7304504cc2a52d02214ea30f55|55325a2e-fcbf-49b6-ade6-f98150735238
+[2015.04.06-19.44.55:335][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2015.04.06-19.44.55:353][  0]LogInit: Transaction tracking system initialized
+[2015.04.06-19.44.55:473][  0]BlueprintLog: New page: Editor Load
+[2015.04.06-19.44.55:500][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.04.06-19.44.55:500][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.06-19.44.55:985][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-19.44.56:343][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-19.44.56:532][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.06-19.44.56:532][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.06-19.44.56:537][  0]LogConsoleResponse:Display: 
+[2015.04.06-19.44.56:661][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.06-19.44.56:762][  0]SourceControl: Info Source control is disabled
+[2015.04.06-19.44.56:762][  0]Cmd: MAP LOAD FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.06-19.44.56:763][  0]LightingResults: New page: Lighting Build
+[2015.04.06-19.44.56:772][  0]MapCheck: New page: Map Check
+[2015.04.06-19.44.56:772][  0]LightingResults: New page: Lighting Build
+[2015.04.06-19.44.56:847][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D626F174C0
+[2015.04.06-19.44.58:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.06-19.44.59:200][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.44.59:201][  0]Cmd: MAP CHECKDEP
+[2015.04.06-19.44.59:201][  0]MapCheck: New page: FirstPersonExampleMap - Apr 6, 2015, 11:44:59 PM
+[2015.04.06-19.44.59:282][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.231ms to complete.
+[2015.04.06-19.44.59:282][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.519
+[2015.04.06-19.44.59:497][  0]LogCollectionManager: Loaded 0 collections in 0.000884 seconds
+[2015.04.06-19.44.59:508][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 1701 classes and 262 folders.
+[2015.04.06-19.44.59:523][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.06-19.44.59:533][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.04.06-19.44.59:559][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.06-19.44.59:560][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.06-19.44.59:625][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.06-19.44.59:674][  0]LogLoad: Full Startup: 13.21 seconds (BP compile: 0.51 seconds)
+[2015.04.06-19.44.59:891][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x456 (Frame:2).
+[2015.04.06-19.45.00:567][  5]LogAssetRegistry: Asset discovery search completed in 5.0779 seconds
+[2015.04.06-19.48.28:784][ 50]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.48.28:792][ 50]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.48.28:810][ 50]LogBlueprint:Error: [compiler] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.48.28:810][ 50]LogBlueprint:Error: [compiler] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.48.28:811][ 50]LogBlueprint:Error: [compiler] Error The current value of the ' In Trans ' pin is invalid: 'In Trans' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.48.28:888][ 50]LogBlueprint:Warning: [compiler] Warning [0222.43] Compile of GrabRecognition failed. 3 Fatal Issue(s) 0 Warning(s) [in 92 ms]
+[2015.04.06-19.48.28:888][ 50]LogBlueprint:Warning: [compiler] Warning [0222.43] Compile of GrabRecognition failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.06-19.48.28:888][ 50]LogBlueprint:Warning: [compiler] Warning [0222.43] Compile of GrabRecognition failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.06-19.48.28:892][ 50]LogBlueprint:Warning: [compiler] Warning [0222.43] Compile of GrabRecognition failed. 3 Fatal Issue(s) 3 Warning(s) [in 4 ms]
+[2015.04.06-19.48.28:892][ 50]LogBlueprint:Warning: [compiler] Warning [0222.43] Compile of GrabRecognition failed. 3 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.06-19.48.28:893][ 50]LogBlueprint:Warning: [compiler] Warning [0222.43] Compile of GrabRecognition failed. 3 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.06-19.48.28:928][ 50]LogPlayLevel: PIE:  Blueprint regeneration took 144 ms (1 blueprints)
+[2015.04.06-19.48.31:472][ 50]BlueprintLog: Info Blueprint GrabRecognition failed to compile
+[2015.04.06-19.50.32:041][209]LogRenderer:Warning: Reallocating scene render targets to support 952x720 (Frame:698).
+[2015.04.06-19.53.10:996][625]LogBlueprint:Error: [compiler] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.53.10:997][625]LogBlueprint:Error: [compiler] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.53.11:065][625]LogBlueprint:Warning: [compiler] Warning [0504.61] Compile of GrabRecognition failed. 2 Fatal Issue(s) 0 Warning(s) [in 84 ms]
+[2015.04.06-19.53.11:065][625]LogBlueprint:Warning: [compiler] Warning [0504.61] Compile of GrabRecognition failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.06-19.53.11:065][625]LogBlueprint:Warning: [compiler] Warning [0504.61] Compile of GrabRecognition failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.06-19.53.11:070][625]LogBlueprint:Warning: [compiler] Warning [0504.61] Compile of GrabRecognition failed. 2 Fatal Issue(s) 3 Warning(s) [in 4 ms]
+[2015.04.06-19.53.11:070][625]LogBlueprint:Warning: [compiler] Warning [0504.61] Compile of GrabRecognition failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.06-19.53.11:070][625]LogBlueprint:Warning: [compiler] Warning [0504.61] Compile of GrabRecognition failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.06-19.53.27:995][ 80]BlueprintLog: New page: Compile GrabRecognition
+[2015.04.06-19.53.28:019][ 80]LogBlueprint:Error: [compiler] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.53.28:020][ 80]LogBlueprint:Error: [compiler] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.53.28:116][ 80]LogBlueprint:Warning: [compiler] Warning [0521.66] Compile of GrabRecognition failed. 2 Fatal Issue(s) 0 Warning(s) [in 121 ms]
+[2015.04.06-19.53.28:116][ 80]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.53.28:116][ 80]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.04.06-19.53.28:116][ 80]BlueprintEditorCompileResults:Warning: Warning [0521.66] Compile of GrabRecognition failed. 2 Fatal Issue(s) 0 Warning(s) [in 121 ms]
+[2015.04.06-19.53.51:122][158]BlueprintLog: New page: Compile GrabRecognition
+[2015.04.06-19.53.51:204][158]BlueprintEditorCompileResults: Info [0544.74] Compile of GrabRecognition successful! [in 82 ms]
+[2015.04.06-19.54.11:890][ 53]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.54.11:896][ 53]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.54.11:947][ 53]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.54.12:023][ 53]LogPlayLevel: PIE:  Blueprint regeneration took 132 ms (2 blueprints)
+[2015.04.06-19.54.12:023][ 53]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:54:12 PM)
+[2015.04.06-19.54.12:052][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028527s)
+[2015.04.06-19.54.12:054][ 53]LogPlayLevel: PIE: World Init took: (0.002357s)
+[2015.04.06-19.54.12:054][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031189s)
+[2015.04.06-19.54.12:206][ 53]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.54.12:208][ 53]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.54.12:214][ 53]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.54.12
+[2015.04.06-19.54.12:215][ 53]LogWorld: Bringing up level for play took: 0.006948
+[2015.04.06-19.54.12:228][ 53]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.79
+[2015.04.06-19.54.12:274][ 53]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:3594).
+[2015.04.06-19.54.16:899][189]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-19.54.21:914][341]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-19.54.24:183][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D65702A3E0
+[2015.04.06-19.54.42:253][721]LogSavePackage: Save=2218.076904ms
+[2015.04.06-19.54.42:253][721]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/FirstPersonExampleMapD5E8C4BB40262C2B959BB28EB36CAFF1.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.06-19.54.42:288][721]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.407
+[2015.04.06-19.54.42:298][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset" SILENT=true
+[2015.04.06-19.54.42:361][721]LogSavePackage: Save=37.925137ms
+[2015.04.06-19.54.42:361][721]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognitionDA52D6F24DB5D3F9DF41718E2796B245.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset'
+[2015.04.06-19.54.42:393][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-19.54.42:753][721]LogSavePackage: Save=353.194275ms
+[2015.04.06-19.54.42:753][721]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/ProjectileF9E12E4E475CB2C337CEFDB3046DCE91.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-19.54.44:790][824]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.06-19.54.44:790][824]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:54:44 PM)
+[2015.04.06-19.54.44:821][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030178s)
+[2015.04.06-19.54.44:822][824]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2015.04.06-19.54.44:823][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031620s)
+[2015.04.06-19.54.44:893][824]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.54.44:895][824]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.54.44:902][824]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.54.44
+[2015.04.06-19.54.44:903][824]LogWorld: Bringing up level for play took: 0.007450
+[2015.04.06-19.54.44:905][824]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.533
+[2015.04.06-19.54.49:762][124]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-19.54.52:074][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D65702D6C0
+[2015.04.06-19.56.19:908][822]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.56.19:915][822]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.56.19:968][822]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.56.20:044][822]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (2 blueprints)
+[2015.04.06-19.56.20:044][822]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:56:20 PM)
+[2015.04.06-19.56.20:073][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028902s)
+[2015.04.06-19.56.20:074][822]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2015.04.06-19.56.20:074][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030163s)
+[2015.04.06-19.56.20:136][822]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.56.20:139][822]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.56.20:146][822]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.56.20
+[2015.04.06-19.56.20:147][822]LogWorld: Bringing up level for play took: 0.007004
+[2015.04.06-19.56.20:156][822]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.719
+[2015.04.06-19.56.24:881][959]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-19.56.29:901][112]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-19.56.32:320][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D627ED1C60
+[2015.04.06-19.59.01:136][487]LogClass:Warning: Property NewVar_0 of SKEL_GrabRecognition_C struct type mismatch Transform/Vector for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.04.06-20.02.41:740][918]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.02.41:748][918]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.02.41:834][918]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.04.06-20.02.41:834][918]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:02:41 AM)
+[2015.04.06-20.02.41:863][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028141s)
+[2015.04.06-20.02.41:864][918]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2015.04.06-20.02.41:864][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029567s)
+[2015.04.06-20.02.41:929][918]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.02.41:932][918]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.02.41:939][918]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.02.41
+[2015.04.06-20.02.41:940][918]LogWorld: Bringing up level for play took: 0.007586
+[2015.04.06-20.02.41:949][918]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.511
+[2015.04.06-20.02.46:732][ 61]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.02.51:750][216]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.02.56:755][383]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.02.59:333][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6644E51C0
+[2015.04.06-20.06.12:615][898]LogSavePackage: Save=2132.604980ms
+[2015.04.06-20.06.12:615][898]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/FirstPersonExampleMap_Auto1760FD4E14CEDF73E5B6F1E8F559AA5FB.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.04.06-20.06.12:625][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 4.531
+[2015.04.06-20.06.12:625][898]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.531
+[2015.04.06-20.06.12:672][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GrabRecognition] ([1] browsable assets)...
+[2015.04.06-20.06.12:672][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabRecognition]
+[2015.04.06-20.06.12:700][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-20.06.12:947][898]LogSavePackage: Save=240.553940ms
+[2015.04.06-20.06.12:949][898]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition_Auto14BFFE64142C1A96AB264C79A9B5979BB.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto1.uasset'
+[2015.04.06-20.06.13:002][898]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Projectile] ([1] browsable assets)...
+[2015.04.06-20.06.13:062][898]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Projectile.Projectile]
+[2015.04.06-20.06.13:062][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/Projectile]
+[2015.04.06-20.06.13:064][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-20.06.13:535][898]LogSavePackage: Save=464.111725ms
+[2015.04.06-20.06.13:536][898]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile_Auto12C64D9A442BA85724437C2AC33E2A402.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto1.uasset'
+[2015.04.06-20.06.13:570][898]LogFileHelpers: Auto-saving content packages took 0.944
+[2015.04.06-20.06.18:708][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_0) Not registered. Aborting.
+[2015.04.06-20.07.18:437][990]LogSavePackage: Save=2263.856689ms
+[2015.04.06-20.07.18:437][990]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/FirstPersonExampleMap5078F63E45BF2991A49CA7A88C232F55.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.06-20.07.18:467][990]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.424
+[2015.04.06-20.07.18:473][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset" SILENT=true
+[2015.04.06-20.07.18:522][990]LogSavePackage: Save=43.496437ms
+[2015.04.06-20.07.18:522][990]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition26DE2034400D7DCB4490FD884DE74D22.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset'
+[2015.04.06-20.07.18:552][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-20.07.18:941][990]LogSavePackage: Save=383.057312ms
+[2015.04.06-20.07.18:941][990]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/ProjectileC2C08828485A8971B23EC8A19A5ACE8A.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-20.08.13:346][357]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.08.13:346][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.06-20.08.13:351][357]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.08.13:415][357]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.08.13:497][357]LogPlayLevel: PIE:  Blueprint regeneration took 151 ms (2 blueprints)
+[2015.04.06-20.08.13:497][357]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:08:13 AM)
+[2015.04.06-20.08.13:526][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028937s)
+[2015.04.06-20.08.13:527][357]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2015.04.06-20.08.13:528][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030188s)
+[2015.04.06-20.08.13:584][357]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.08.13:587][357]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.08.13:595][357]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.08.13
+[2015.04.06-20.08.13:595][357]LogWorld: Bringing up level for play took: 0.007259
+[2015.04.06-20.08.13:605][357]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.168
+[2015.04.06-20.08.18:340][496]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.08.23:366][651]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.08.25:439][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D66D7B1620
+[2015.04.06-20.08.30:899][217]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.08.30:909][217]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.08.30:991][217]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.06-20.08.30:991][217]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:08:30 AM)
+[2015.04.06-20.08.31:021][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029051s)
+[2015.04.06-20.08.31:022][217]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2015.04.06-20.08.31:022][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030392s)
+[2015.04.06-20.08.31:082][217]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.08.31:085][217]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.08.31:092][217]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.08.31
+[2015.04.06-20.08.31:093][217]LogWorld: Bringing up level for play took: 0.007734
+[2015.04.06-20.08.31:103][217]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.334
+[2015.04.06-20.08.35:875][358]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.08.37:768][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D66D669760
+[2015.04.06-20.08.43:407][859]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.08.43:414][859]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.08.43:434][859]LogBlueprint:Warning: [GrabRecognition] CreatePinForVariable: 'ProjectileMovement' variable not found. Base class was probably changed.
+[2015.04.06-20.08.43:479][859]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.08.43:498][859]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "ProjectileMovement" in 'Projectile_C'.
+Make sure 'Projectile_C' has been compiled for  Get ProjectileMovement 
+[2015.04.06-20.08.43:502][859]LogBlueprint:Error: [compiler] Error The property associated with  Projectile Movement  could not be found
+[2015.04.06-20.08.43:571][859]LogBlueprint:Warning: [compiler] Warning [1437.11] Compile of GrabRecognition failed. 1 Fatal Issue(s) 1 Warning(s) [in 87 ms]
+[2015.04.06-20.08.43:571][859]LogBlueprint:Warning: [compiler] Warning [1437.11] Compile of GrabRecognition failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.06-20.08.43:571][859]LogBlueprint:Warning: [compiler] Warning [1437.11] Compile of GrabRecognition failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.06-20.08.43:577][859]LogBlueprint:Warning: [compiler] Warning [1437.12] Compile of GrabRecognition failed. 1 Fatal Issue(s) 4 Warning(s) [in 5 ms]
+[2015.04.06-20.08.43:577][859]LogBlueprint:Warning: [compiler] Warning [1437.12] Compile of GrabRecognition failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.06-20.08.43:577][859]LogBlueprint:Warning: [compiler] Warning [1437.12] Compile of GrabRecognition failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.04.06-20.08.43:600][859]LogPlayLevel: PIE:  Blueprint regeneration took 193 ms (2 blueprints)
+[2015.04.06-20.08.45:553][859]BlueprintLog: Info Blueprint GrabRecognition failed to compile
+[2015.04.06-20.08.50:147][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset" SILENT=true
+[2015.04.06-20.08.50:195][268]LogSavePackage: Save=41.781937ms
+[2015.04.06-20.08.50:195][268]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognitionE2444AC04B0E9986E09B7397ABC769D9.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset'
+[2015.04.06-20.08.50:224][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-20.08.50:582][268]LogSavePackage: Save=352.849976ms
+[2015.04.06-20.08.50:582][268]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/ProjectileE18129E947FFB3939DFE70A0A6871663.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-20.08.53:851][489]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.08.53:861][489]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.08.53:942][489]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.06-20.08.53:943][489]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:08:53 AM)
+[2015.04.06-20.08.53:973][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030112s)
+[2015.04.06-20.08.53:975][489]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2015.04.06-20.08.53:975][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031649s)
+[2015.04.06-20.08.54:036][489]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.08.54:039][489]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.08.54:046][489]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.08.54
+[2015.04.06-20.08.54:047][489]LogWorld: Bringing up level for play took: 0.007554
+[2015.04.06-20.08.54:058][489]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.62
+[2015.04.06-20.08.58:839][636]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.09.01:380][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D66D668F40
+[2015.04.06-20.09.48:787][141]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.09.48:787][141]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.06-20.09.48:793][141]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.09.48:856][141]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.09.48:934][141]LogPlayLevel: PIE:  Blueprint regeneration took 146 ms (2 blueprints)
+[2015.04.06-20.09.48:934][141]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:09:48 AM)
+[2015.04.06-20.09.48:963][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028498s)
+[2015.04.06-20.09.48:964][141]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2015.04.06-20.09.48:964][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029874s)
+[2015.04.06-20.09.49:032][141]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.09.49:035][141]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.09.49:046][141]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.09.49
+[2015.04.06-20.09.49:047][141]LogWorld: Bringing up level for play took: 0.011211
+[2015.04.06-20.09.49:049][141]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.388
+[2015.04.06-20.09.53:757][439]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.09.55:897][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.06-20.09.55:938][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D67179C680
+[2015.04.06-20.11.25:497][892]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.11.25:504][892]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.11.25:565][892]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.11.25:648][892]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (2 blueprints)
+[2015.04.06-20.11.25:648][892]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:11:25 AM)
+[2015.04.06-20.11.25:680][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031716s)
+[2015.04.06-20.11.25:681][892]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2015.04.06-20.11.25:681][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033031s)
+[2015.04.06-20.11.25:746][892]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.11.25:748][892]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.11.25:755][892]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.11.25
+[2015.04.06-20.11.25:756][892]LogWorld: Bringing up level for play took: 0.007285
+[2015.04.06-20.11.25:767][892]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.33
+[2015.04.06-20.11.30:477][ 29]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.11.35:497][192]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.11.36:176][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D65E668720
+[2015.04.06-20.11.39:787][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-20.11.40:157][556]LogSavePackage: Save=363.496185ms
+[2015.04.06-20.11.40:157][556]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile4967CEDD4280CF1603FCC7967BB7E2F6.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-20.12.12:609][184]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.12.12:617][184]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.12.12:675][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.06-20.12.12:696][184]LogPlayLevel: PIE:  Blueprint regeneration took 87 ms (1 blueprints)
+[2015.04.06-20.12.12:696][184]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:12:12 AM)
+[2015.04.06-20.12.12:725][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028716s)
+[2015.04.06-20.12.12:726][184]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2015.04.06-20.12.12:726][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029877s)
+[2015.04.06-20.12.12:788][184]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.12.12:790][184]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.12.12:797][184]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.12.12
+[2015.04.06-20.12.12:798][184]LogWorld: Bringing up level for play took: 0.007784
+[2015.04.06-20.12.12:808][184]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.629
+[2015.04.06-20.12.17:583][324]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.12.17:584][324]LogBlueprintUserMessages: Destroying Projectile
+[2015.04.06-20.12.22:594][484]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.12.23:084][500]LogBlueprintUserMessages: Destroying Projectile
+[2015.04.06-20.12.27:620][653]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.12.28:104][669]LogBlueprintUserMessages: Destroying Projectile
+[2015.04.06-20.12.32:637][811]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.12.32:638][811]LogBlueprintUserMessages: Destroying Projectile
+[2015.04.06-20.12.37:666][969]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.12.37:667][969]LogBlueprintUserMessages: Destroying Projectile
+[2015.04.06-20.12.39:472][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D668EAB600
+[2015.04.06-20.15.08:443][447]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.15.08:443][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.06-20.15.08:449][447]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.15.08:512][447]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.15.08:594][447]LogPlayLevel: PIE:  Blueprint regeneration took 151 ms (2 blueprints)
+[2015.04.06-20.15.08:594][447]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:15:08 AM)
+[2015.04.06-20.15.08:624][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029278s)
+[2015.04.06-20.15.08:625][447]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2015.04.06-20.15.08:625][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030544s)
+[2015.04.06-20.15.08:681][447]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.15.08:683][447]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.15.08:691][447]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.15.08
+[2015.04.06-20.15.08:692][447]LogWorld: Bringing up level for play took: 0.008093
+[2015.04.06-20.15.08:701][447]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.737
+[2015.04.06-20.15.13:440][599]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.15.13:995][614]LogBlueprintUserMessages: Floor2.StaticMeshComponent0 CubeMesh
+[2015.04.06-20.15.18:466][754]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.15.18:467][754]LogBlueprintUserMessages: LeapBonePalm_657.CapsuleComponent
+[2015.04.06-20.15.23:482][912]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.15.23:483][912]LogBlueprintUserMessages: LeapBonePalm_689.CapsuleComponent
+[2015.04.06-20.15.25:635][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D671DCDB20
+[2015.04.06-20.15.37:304][130]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.15.37:310][130]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.15.37:370][130]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.15.37:453][130]LogPlayLevel: PIE:  Blueprint regeneration took 147 ms (2 blueprints)
+[2015.04.06-20.15.37:453][130]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:15:37 AM)
+[2015.04.06-20.15.37:483][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029326s)
+[2015.04.06-20.15.37:484][130]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2015.04.06-20.15.37:484][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030907s)
+[2015.04.06-20.15.37:549][130]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.15.37:551][130]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.15.37:558][130]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.15.37
+[2015.04.06-20.15.37:559][130]LogWorld: Bringing up level for play took: 0.007872
+[2015.04.06-20.15.37:570][130]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.133
+[2015.04.06-20.15.42:299][272]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.15.47:319][440]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.15.52:248][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6779C6520
+[2015.04.06-20.16.19:401][273]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.16.19:409][273]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.16.19:475][273]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.16.19:560][273]LogPlayLevel: PIE:  Blueprint regeneration took 157 ms (2 blueprints)
+[2015.04.06-20.16.19:560][273]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:16:19 AM)
+[2015.04.06-20.16.19:591][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030641s)
+[2015.04.06-20.16.19:593][273]LogPlayLevel: PIE: World Init took: (0.001861s)
+[2015.04.06-20.16.19:593][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032868s)
+[2015.04.06-20.16.19:653][273]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.16.19:655][273]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.16.19:662][273]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.16.19
+[2015.04.06-20.16.19:664][273]LogWorld: Bringing up level for play took: 0.008540
+[2015.04.06-20.16.19:678][273]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.24
+[2015.04.06-20.16.24:387][415]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.16.29:403][571]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.16.31:021][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6779C7EC0
+[2015.04.06-20.18.37:391][  6]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-20.18.37:396][  6]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-20.18.37:452][  6]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-20.18.37:534][  6]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (2 blueprints)
+[2015.04.06-20.18.37:534][  6]PIE: New page: PIE session: FirstPersonExampleMap (Apr 7, 2015, 12:18:37 AM)
+[2015.04.06-20.18.37:564][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029566s)
+[2015.04.06-20.18.37:565][  6]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2015.04.06-20.18.37:565][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030888s)
+[2015.04.06-20.18.37:618][  6]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-20.18.37:621][  6]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-20.18.37:628][  6]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-22.18.37
+[2015.04.06-20.18.37:629][  6]LogWorld: Bringing up level for play took: 0.007022
+[2015.04.06-20.18.37:638][  6]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.201
+[2015.04.06-20.18.42:392][155]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.18.42:393][155]LogBlueprintUserMessages: X=313.800 Y=105.277 Z=19.081
+[2015.04.06-20.18.47:397][308]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.18.47:398][308]LogBlueprintUserMessages: X=332.679 Y=99.069 Z=-14.012
+[2015.04.06-20.18.52:423][470]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.18.52:424][470]LogBlueprintUserMessages: X=368.797 Y=79.872 Z=24.193
+[2015.04.06-20.18.57:431][621]LogBlueprintUserMessages: Spawning Actor
+[2015.04.06-20.18.57:431][621]LogBlueprintUserMessages: X=355.176 Y=229.703 Z=25.849
+[2015.04.06-20.18.58:978][665]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6665F5260
+[2015.04.06-20.19.40:693][ 11]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.022
+[2015.04.06-20.19.40:728][ 11]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GrabRecognition] ([1] browsable assets)...
+[2015.04.06-20.19.40:766][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabRecognition]
+[2015.04.06-20.19.40:775][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-20.19.40:969][ 11]LogSavePackage: Save=178.443436ms
+[2015.04.06-20.19.40:970][ 11]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition_Auto20821444542D4483D3D86C2A95A756EB3.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto2.uasset'
+[2015.04.06-20.19.41:013][ 11]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Projectile] ([1] browsable assets)...
+[2015.04.06-20.19.41:056][ 11]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Projectile.Projectile]
+[2015.04.06-20.19.41:056][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/Projectile]
+[2015.04.06-20.19.41:059][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-20.19.41:508][ 11]LogSavePackage: Save=442.858032ms
+[2015.04.06-20.19.41:509][ 11]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile_Auto2450F70C64C9AC431C1B9CD906E6F36AE.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto2.uasset'
+[2015.04.06-20.19.41:517][ 11]LogFileHelpers: Auto-saving content packages took 0.825
+[2015.04.06-20.19.42:528][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.06-20.19.46:449][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.04.06-20.19.46:560][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset" SILENT=true
+[2015.04.06-20.19.46:676][361]LogSavePackage: Save=109.920006ms
+[2015.04.06-20.19.46:676][361]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition209D266B4A4939069407A8A549DBEE25.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset'
+[2015.04.06-20.19.46:704][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-20.19.47:061][361]LogSavePackage: Save=350.607849ms
+[2015.04.06-20.19.47:061][361]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile7F76591241591A83B7286EB045E7B849.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-20.19.51:079][594]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.04.06-20.19.51:844][595]Cmd: QUIT_EDITOR
+[2015.04.06-20.19.52:080][595]LogExit: Preparing to exit.
+[2015.04.06-20.19.52:989][595]LogExit: Editor shut down
+[2015.04.06-20.19.52:990][595]LogExit: Transaction tracking system shut down
+[2015.04.06-20.19.52:991][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61922EE80
+[2015.04.06-20.19.52:991][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61B9E7920
+[2015.04.06-20.19.52:991][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D628A628E0
+[2015.04.06-20.19.52:991][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D628A61E40
+[2015.04.06-20.19.52:994][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61B1042C0
+[2015.04.06-20.19.52:994][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61C7DB7E0
+[2015.04.06-20.19.52:994][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61C7DAF20
+[2015.04.06-20.19.52:994][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61C7DB600
+[2015.04.06-20.19.52:994][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61C7DAE80
+[2015.04.06-20.19.52:994][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D61C7D8720
+[2015.04.06-20.19.53:193][595]LogExit: Object subsystem successfully closed.
+[2015.04.06-20.19.53:243][595]LogModuleManager: Shutting down and abandoning module CrashTracker (173)
+[2015.04.06-20.19.53:244][595]LogModuleManager: Shutting down and abandoning module SuperSearch (172)
+[2015.04.06-20.19.53:244][595]LogModuleManager: Shutting down and abandoning module SceneOutliner (171)
+[2015.04.06-20.19.53:244][595]LogModuleManager: Shutting down and abandoning module EditorWidgets (170)
+[2015.04.06-20.19.53:244][595]LogModuleManager: Shutting down and abandoning module CollectionManager (169)
+[2015.04.06-20.19.53:286][595]LogModuleManager: Shutting down and abandoning module StatsViewer (168)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module FoliageEdit (167)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module LandscapeEditor (166)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module MeshPaint (165)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module ActorPickerMode (164)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module GeometryMode (163)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module TextureAlignMode (162)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module BspMode (161)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module PlacementMode (160)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module AutomationWorker (159)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module CharacterAI (158)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module SmartSnapping (157)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module ViewportSnapping (156)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module LogVisualizer (155)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (154)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module IntroTutorials (153)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (152)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module HardwareTargeting (151)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (150)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module UndoHistory (149)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (148)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module UserFeedback (147)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module XmlParser (146)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module Blutility (145)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (144)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (143)
+[2015.04.06-20.19.53:287][595]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (142)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (141)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (140)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (139)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (138)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module InputBindingEditor (137)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (136)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module SettingsEditor (135)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module ProjectLauncher (134)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module SessionFrontend (133)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module ProfilerClient (132)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (131)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module DeviceManager (130)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module AutomationController (129)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module AutomationWindow (128)
+[2015.04.06-20.19.53:695][595]LogModuleManager: Shutting down and abandoning module Layers (127)
+[2015.04.06-20.19.53:696][595]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (126)
+[2015.04.06-20.19.53:696][595]LogModuleManager: Shutting down and abandoning module DetailCustomizations (125)
+[2015.04.06-20.19.53:696][595]LogModuleManager: Shutting down and abandoning module PackagesDialog (124)
+[2015.04.06-20.19.53:696][595]LogModuleManager: Shutting down and abandoning module AssetRegistry (123)
+[2015.04.06-20.19.53:747][595]LogModuleManager: Shutting down and abandoning module Persona (122)
+[2015.04.06-20.19.53:747][595]LogModuleManager: Shutting down and abandoning module SlateReflector (121)
+[2015.04.06-20.19.53:747][595]LogModuleManager: Shutting down and abandoning module LevelEditor (120)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module Kismet (119)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module GraphEditor (118)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module ClassViewer (117)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module Toolbox (116)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module ModuleUI (115)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module MovieSceneTools (114)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module OutputLog (113)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module GammaUI (112)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module Documentation (111)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module HTTP (108)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module AnalyticsET (107)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module Analytics (106)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module AITestSuite (105)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module GameplayDebugger (104)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module AIModule (103)
+[2015.04.06-20.19.53:749][595]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2015.04.06-20.19.53:888][595]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2015.04.06-20.19.53:888][595]LogModuleManager: Shutting down and abandoning module SlateRemote (100)
+[2015.04.06-20.19.53:888][595]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (99)
+[2015.04.06-20.19.53:888][595]LogModuleManager: Shutting down and abandoning module LeapMotionController (98)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module MessagingDebugger (95)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (94)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (93)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module PluginsEditor (92)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.04.06-20.19.53:982][595]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module HotReload (87)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (86)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module UObjectPlugin (85)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (84)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (83)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module SourceControl (82)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module GitSourceControl (81)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module BlankPlugin (80)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (79)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (78)
+[2015.04.06-20.19.53:993][595]LogModuleManager: Shutting down and abandoning module ContentBrowser (77)
+[2015.04.06-20.19.53:994][595]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2015.04.06-20.19.53:994][595]LogModuleManager: Shutting down and abandoning module ScriptPlugin (75)
+[2015.04.06-20.19.53:994][595]LogModuleManager: Shutting down and abandoning module UdpMessaging (74)
+[2015.04.06-20.19.54:095][595]LogModuleManager: Shutting down and abandoning module Paper2D (73)
+[2015.04.06-20.19.54:095][595]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (72)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module Media (71)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (69)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (64)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module MessageLog (63)
+[2015.04.06-20.19.54:100][595]LogModuleManager: Shutting down and abandoning module Sequencer (62)
+[2015.04.06-20.19.54:101][595]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2015.04.06-20.19.54:101][595]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2015.04.06-20.19.54:101][595]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2015.04.06-20.19.54:101][595]LogModuleManager: Shutting down and abandoning module Slate (58)
+[2015.04.06-20.19.54:101][595]LogModuleManager: Shutting down and abandoning module EditorStyle (57)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module SessionServices (56)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (55)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (54)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module XAudio2 (53)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module Networking (51)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module Core (50)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module KismetCompiler (49)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module PhysXFormats (48)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module MeshUtilities (47)
+[2015.04.06-20.19.54:104][595]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
+[2015.04.06-20.19.54:121][595]LogDerivedDataCache: Shutdown
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.06-20.19.54:121][595]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.06-20.19.54:128][595]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.06-20.19.54:129][595]LogExit: Exiting.
+[2015.04.06-20.19.54:134][595]Log file closed, 04/06/15 22:19:54

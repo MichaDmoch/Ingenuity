@@ -1,0 +1,741 @@
+﻿Log file open, 04/06/15 20:46:05
+LogInit:Display: Running engine for game: IngenuityBasic
+LogInit: Version: 4.7.4-0+++depot+UE4-Releases+4.7
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Mar 25 2015 02:32:27
+LogInit: Compiled with Visual C++: 18.00.31101.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2015.04.06-18.46.05:437][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.06-18.46.05:504][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.06-18.46.05:521][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.06-18.46.05:535][  0]LogInit: Object subsystem initialized
+[2015.04.06-18.46.05:537][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.06-18.46.05:537][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Github/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-18.46.05:537][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.06-18.46.05:537][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Github/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-18.46.05:537][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.06-18.46.05:537][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Github/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-18.46.05:537][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.06-18.46.05:537][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.06-18.46.05:630][  0]LogInit: Computer: TAZDINGO
+[2015.04.06-18.46.05:630][  0]LogInit: User: VolJin
+[2015.04.06-18.46.05:630][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.06-18.46.05:630][  0]LogInit: High frequency timer resolution =2.143486 MHz
+[2015.04.06-18.46.05:630][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.06-18.46.05:631][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.06-18.46.05:631][  0]LogMemory: Process Physical Memory: 45.60 MB used, 45.60 MB peak
+[2015.04.06-18.46.05:631][  0]LogMemory: Process Virtual Memory: 22.39 MB used, 22.40 MB peak
+[2015.04.06-18.46.05:631][  0]LogMemory: Physical Memory: 2992.77 MB used, 8108.79 MB total
+[2015.04.06-18.46.05:631][  0]LogMemory: Virtual Memory: 288.31 MB used, 134217728.00 MB total
+[2015.04.06-18.46.05:738][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.06-18.46.05:738][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 2 output[s]
+[2015.04.06-18.46.05:753][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 760M (Feature Level 11_0)
+[2015.04.06-18.46.05:753][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.04.06-18.46.05:754][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.06-18.46.05:754][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.06-18.46.05:754][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.06-18.46.05:759][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.06-18.46.05:771][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.06-18.46.05:830][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.06-18.46.05:910][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.06-18.46.05:910][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/UE4/source code/UnrealEngine-4.7/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.06-18.46.05:989][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.06-18.46.08:052][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-18.46.08:453][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-18.46.08:499][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.06-18.46.09:044][  0]LogDerivedDataCache: Loaded boot cache 0.52s 40MB ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.06-18.46.09:044][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc
+[2015.04.06-18.46.09:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.06-18.46.09:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.06-18.46.09:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.06-18.46.09:044][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.04.06-18.46.09:058][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.04.06-18.46.09:058][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.04.06-18.46.09:058][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.04.06-18.46.09:352][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.06-18.46.09:352][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.06-18.46.09:851][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.06-18.46.09:904][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.06-18.46.10:566][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.06-18.46.10:832][  0]SourceControl: Info Source control is disabled
+[2015.04.06-18.46.10:832][  0]SourceControl: Info Source control is disabled
+[2015.04.06-18.46.10:832][  0]SourceControl: Info Source control is disabled
+[2015.04.06-18.46.10:832][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.06-18.46.10:832][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.06-18.46.10:838][  0]SourceControl: Info Source control is disabled
+[2015.04.06-18.46.11:247][  0]LogObj: 24371 objects as part of root set at end of initial load.
+[2015.04.06-18.46.11:247][  0]LogUObjectAllocator: 5175440 out of 0 bytes used by permanent object pool.
+[2015.04.06-18.46.11:321][  0]LogEngine: Initializing Engine...
+[2015.04.06-18.46.13:508][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.06-18.46.13:528][  0]LogInit: FAudioDevice initialized.
+[2015.04.06-18.46.13:553][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.06-18.46.13:578][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB ../../../../../../../Github/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.06-18.46.13:582][  0]LogInit: Texture streaming: Enabled
+[2015.04.06-18.46.13:655][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.06-18.46.13:655][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.4-0+++depot+UE4-Releases+4.7
+[2015.04.06-18.46.13:655][  0]LogAnalytics: SetUserId c98b79d14844094ad4256e87f54b579a|b11a4e7304504cc2a52d02214ea30f55|55325a2e-fcbf-49b6-ade6-f98150735238
+[2015.04.06-18.46.13:655][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2015.04.06-18.46.13:671][  0]LogInit: Transaction tracking system initialized
+[2015.04.06-18.46.13:780][  0]BlueprintLog: New page: Editor Load
+[2015.04.06-18.46.13:806][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.04.06-18.46.13:806][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.06-18.46.14:226][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-18.46.14:560][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-18.46.14:738][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.06-18.46.14:738][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.06-18.46.14:742][  0]LogConsoleResponse:Display: 
+[2015.04.06-18.46.14:912][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.06-18.46.15:003][  0]SourceControl: Info Source control is disabled
+[2015.04.06-18.46.15:003][  0]Cmd: MAP LOAD FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.06-18.46.15:045][  0]LightingResults: New page: Lighting Build
+[2015.04.06-18.46.15:053][  0]MapCheck: New page: Map Check
+[2015.04.06-18.46.15:053][  0]LightingResults: New page: Lighting Build
+[2015.04.06-18.46.15:060][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F9B1B74C0
+[2015.04.06-18.46.18:341][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.06-18.46.19:908][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.46.19:918][  0]Cmd: MAP CHECKDEP
+[2015.04.06-18.46.19:918][  0]MapCheck: New page: FirstPersonExampleMap - Apr 6, 2015, 10:46:19 PM
+[2015.04.06-18.46.19:990][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.501ms to complete.
+[2015.04.06-18.46.19:990][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.988
+[2015.04.06-18.46.20:697][  0]LogCollectionManager: Loaded 0 collections in 0.001174 seconds
+[2015.04.06-18.46.20:710][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 1701 classes and 262 folders.
+[2015.04.06-18.46.20:898][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.06-18.46.20:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2015.04.06-18.46.21:413][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.06-18.46.21:448][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.06-18.46.21:577][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.06-18.46.21:651][  0]LogLoad: Full Startup: 18.09 seconds (BP compile: 0.66 seconds)
+[2015.04.06-18.46.22:473][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x456 (Frame:2).
+[2015.04.06-18.46.22:963][  4]LogAssetRegistry: Asset discovery search completed in 9.1679 seconds
+[2015.04.06-18.50.07:912][960]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-18.50.07:919][960]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-18.50.08:055][960]LogPlayLevel: PIE:  Blueprint regeneration took 143 ms (1 blueprints)
+[2015.04.06-18.50.08:055][960]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:50:08 PM)
+[2015.04.06-18.50.08:117][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060881s)
+[2015.04.06-18.50.08:118][960]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2015.04.06-18.50.08:118][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.062344s)
+[2015.04.06-18.50.08:306][960]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.50.08:418][960]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.50.08:441][960]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.50.08
+[2015.04.06-18.50.08:451][960]LogWorld: Bringing up level for play took: 0.030981
+[2015.04.06-18.50.08:549][960]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.112
+[2015.04.06-18.50.08:713][960]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:135).
+[2015.04.06-18.50.13:337][113]LogBlueprintUserMessages: Hello
+[2015.04.06-18.50.18:352][285]LogBlueprintUserMessages: Hello
+[2015.04.06-18.50.20:134][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FC3DCADE0
+[2015.04.06-18.50.47:469][ 53]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.06-18.50.56:810][674]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.06-18.54.19:078][347]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-18.54.19:084][347]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-18.54.19:230][347]LogPlayLevel: PIE:  Blueprint regeneration took 151 ms (1 blueprints)
+[2015.04.06-18.54.19:230][347]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:54:19 PM)
+[2015.04.06-18.54.19:264][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033628s)
+[2015.04.06-18.54.19:265][347]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2015.04.06-18.54.19:266][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035142s)
+[2015.04.06-18.54.19:321][347]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.54.19:323][347]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.54.19:331][347]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.54.19
+[2015.04.06-18.54.19:331][347]LogWorld: Bringing up level for play took: 0.007013
+[2015.04.06-18.54.19:340][347]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.097
+[2015.04.06-18.54.24:055][500]LogBlueprintUserMessages: Hello
+[2015.04.06-18.54.29:079][649]LogBlueprintUserMessages: Hello
+[2015.04.06-18.54.34:091][793]LogBlueprintUserMessages: Hello
+[2015.04.06-18.54.39:095][925]LogBlueprintUserMessages: Hello
+[2015.04.06-18.54.44:108][ 61]LogBlueprintUserMessages: Hello
+[2015.04.06-18.54.49:135][186]LogBlueprintUserMessages: Hello
+[2015.04.06-18.54.52:129][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FC3DCB560
+[2015.04.06-18.54.55:827][586]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.06-18.54.55:827][586]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:54:55 PM)
+[2015.04.06-18.54.55:854][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026672s)
+[2015.04.06-18.54.55:856][586]LogPlayLevel: PIE: World Init took: (0.001906s)
+[2015.04.06-18.54.55:856][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028818s)
+[2015.04.06-18.54.56:003][586]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.54.56:005][586]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.54.56:012][586]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.54.56
+[2015.04.06-18.54.56:013][586]LogWorld: Bringing up level for play took: 0.006931
+[2015.04.06-18.54.56:014][586]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.577
+[2015.04.06-18.54.58:530][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F902EC900
+[2015.04.06-18.55.09:408][250]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.06-18.55.09:408][250]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:55:09 PM)
+[2015.04.06-18.55.09:439][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030612s)
+[2015.04.06-18.55.09:441][250]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2015.04.06-18.55.09:441][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032390s)
+[2015.04.06-18.55.09:501][250]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.55.09:503][250]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.55.09:510][250]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.55.09
+[2015.04.06-18.55.09:511][250]LogWorld: Bringing up level for play took: 0.007482
+[2015.04.06-18.55.09:513][250]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.075
+[2015.04.06-18.55.14:075][505]LogBlueprintUserMessages: Hello
+[2015.04.06-18.55.18:498][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F94612660
+[2015.04.06-18.56.46:317][803]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-18.56.46:324][803]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-18.56.46:397][803]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2015.04.06-18.56.46:398][803]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:56:46 PM)
+[2015.04.06-18.56.46:427][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028691s)
+[2015.04.06-18.56.46:428][803]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2015.04.06-18.56.46:428][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030017s)
+[2015.04.06-18.56.46:485][803]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.56.46:488][803]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.56.46:495][803]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.56.46
+[2015.04.06-18.56.46:496][803]LogWorld: Bringing up level for play took: 0.008110
+[2015.04.06-18.56.46:505][803]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.068
+[2015.04.06-18.56.51:312][945]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.56.56:317][ 88]LogBlueprintUserMessages: Translation: X=5.415 Y=-11.611 Z=20.920 Rotation: P=-66.610168 Y=34.050587 R=-33.191437 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.01:343][212]LogBlueprintUserMessages: Translation: X=1.478 Y=-15.852 Z=24.140 Rotation: P=-43.667236 Y=48.829586 R=-41.473145 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.06:360][341]LogBlueprintUserMessages: Translation: X=8.529 Y=0.572 Z=21.026 Rotation: P=-85.092407 Y=85.574463 R=-70.670166 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.11:391][463]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.16:427][582]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.19:076][640]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F960DC5E0
+[2015.04.06-18.57.29:788][429]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-18.57.29:796][429]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-18.57.29:866][429]LogPlayLevel: PIE:  Blueprint regeneration took 78 ms (1 blueprints)
+[2015.04.06-18.57.29:866][429]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:57:29 PM)
+[2015.04.06-18.57.29:896][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029211s)
+[2015.04.06-18.57.29:897][429]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2015.04.06-18.57.29:897][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030554s)
+[2015.04.06-18.57.29:959][429]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.57.29:963][429]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.57.29:970][429]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.57.29
+[2015.04.06-18.57.29:970][429]LogWorld: Bringing up level for play took: 0.006976
+[2015.04.06-18.57.29:980][429]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.543
+[2015.04.06-18.57.34:764][578]LogBlueprintUserMessages: Translation: X=0.992 Y=2.474 Z=22.981 Rotation: P=-72.985413 Y=-2.609467 R=-8.585815 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.39:799][729]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.57.43:136][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F960DC9A0
+[2015.04.06-18.58.13:006][125]LogSavePackage: Save=2197.144287ms
+[2015.04.06-18.58.13:006][125]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/FirstPersonExampleMap_Auto1CFA10E784790952271240F9554E7C600.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.04.06-18.58.13:014][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.437
+[2015.04.06-18.58.13:014][125]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.437
+[2015.04.06-18.58.13:051][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GrabRecognition] ([1] browsable assets)...
+[2015.04.06-18.58.13:051][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabRecognition]
+[2015.04.06-18.58.13:057][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-18.58.13:256][125]LogSavePackage: Save=194.003128ms
+[2015.04.06-18.58.13:257][125]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition_Auto1E313C35F4A3C6B2D9DE85EB1FB6762BB.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto1.uasset'
+[2015.04.06-18.58.13:275][125]LogFileHelpers: Auto-saving content packages took 0.261
+[2015.04.06-18.59.07:539][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.06-18.59.33:791][349]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-18.59.33:798][349]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-18.59.33:870][349]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2015.04.06-18.59.33:870][349]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 10:59:33 PM)
+[2015.04.06-18.59.33:901][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030189s)
+[2015.04.06-18.59.33:902][349]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2015.04.06-18.59.33:902][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031845s)
+[2015.04.06-18.59.33:959][349]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-18.59.33:962][349]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-18.59.33:971][349]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-20.59.33
+[2015.04.06-18.59.33:972][349]LogWorld: Bringing up level for play took: 0.007267
+[2015.04.06-18.59.33:982][349]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.544
+[2015.04.06-18.59.38:781][503]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.59.43:791][650]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.59.48:812][783]LogBlueprintUserMessages: Translation: X=2.511 Y=10.104 Z=19.827 Rotation: P=-64.867859 Y=-10.606537 R=6.107939 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.59.53:841][902]LogBlueprintUserMessages: Translation: X=2.109 Y=13.733 Z=18.478 Rotation: P=-44.865051 Y=-76.234650 R=67.450714 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-18.59.55:865][947]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F91325F80
+[2015.04.06-19.01.09:996][198]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.01.10:003][198]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.01.10:077][198]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2015.04.06-19.01.10:077][198]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:01:10 PM)
+[2015.04.06-19.01.10:108][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029854s)
+[2015.04.06-19.01.10:109][198]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2015.04.06-19.01.10:109][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031105s)
+[2015.04.06-19.01.10:167][198]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.01.10:168][198]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.01.10:176][198]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.01.10
+[2015.04.06-19.01.10:177][198]LogWorld: Bringing up level for play took: 0.007856
+[2015.04.06-19.01.10:185][198]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.749
+[2015.04.06-19.01.14:976][363]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.01.19:999][506]LogBlueprintUserMessages: Translation: X=5.854 Y=3.058 Z=26.337 Rotation: P=-59.360138 Y=-12.678101 R=5.075668 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.01.25:000][638]LogBlueprintUserMessages: Translation: X=6.375 Y=3.573 Z=28.452 Rotation: P=-67.975189 Y=5.980947 R=-13.793091 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.01.29:397][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FC6E38540
+[2015.04.06-19.01.57:059][229]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.06-19.01.57:059][229]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:01:57 PM)
+[2015.04.06-19.01.57:089][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029464s)
+[2015.04.06-19.01.57:090][229]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2015.04.06-19.01.57:090][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030829s)
+[2015.04.06-19.01.57:145][229]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.01.57:147][229]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.01.57:154][229]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.01.57
+[2015.04.06-19.01.57:155][229]LogWorld: Bringing up level for play took: 0.006998
+[2015.04.06-19.01.57:156][229]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.281
+[2015.04.06-19.02.02:024][555]LogBlueprintUserMessages: Translation: X=2.883 Y=5.626 Z=28.081 Rotation: P=-66.005798 Y=-5.897766 R=2.439489 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.02.07:036][852]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.02.12:036][161]LogBlueprintUserMessages: Translation: X=0.000 Y=0.000 Z=0.000 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.02.14:753][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FCF3E4860
+[2015.04.06-19.03.12:602][855]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.03.12:611][855]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.03.12:685][855]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2015.04.06-19.03.12:685][855]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:03:12 PM)
+[2015.04.06-19.03.12:715][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029621s)
+[2015.04.06-19.03.12:716][855]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2015.04.06-19.03.12:716][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030917s)
+[2015.04.06-19.03.12:773][855]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.03.12:776][855]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.03.12:783][855]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.03.12
+[2015.04.06-19.03.12:784][855]LogWorld: Bringing up level for play took: 0.007659
+[2015.04.06-19.03.12:794][855]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.643
+[2015.04.06-19.03.17:599][999]LogBlueprintUserMessages: Translation: X=-470.727 Y=21.247 Z=214.446 Rotation: P=-73.742798 Y=-6.609558 R=7.198487 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.03.22:628][138]LogBlueprintUserMessages: Translation: X=-1113.916 Y=-198.769 Z=212.959 Rotation: P=-64.008728 Y=12.393081 R=-43.001556 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.03.27:661][281]LogBlueprintUserMessages: Translation: X=-1441.178 Y=3.672 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.03.31:807][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FCFBB5B20
+[2015.04.06-19.03.51:480][425]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.06-19.03.51:480][425]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:03:51 PM)
+[2015.04.06-19.03.51:510][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029307s)
+[2015.04.06-19.03.51:511][425]LogPlayLevel: PIE: World Init took: (0.001704s)
+[2015.04.06-19.03.51:512][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031421s)
+[2015.04.06-19.03.51:570][425]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.03.51:573][425]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.03.51:580][425]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.03.51
+[2015.04.06-19.03.51:581][425]LogWorld: Bringing up level for play took: 0.007841
+[2015.04.06-19.03.51:599][425]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.161
+[2015.04.06-19.03.56:454][572]LogBlueprintUserMessages: Translation: X=-473.683 Y=22.344 Z=217.526 Rotation: P=-69.302399 Y=-10.678314 R=4.094403 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.04.01:476][710]LogBlueprintUserMessages: Translation: X=-473.521 Y=-17.096 Z=217.729 Rotation: P=-69.610840 Y=-20.384186 R=-3.847565 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.04.03:612][764]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F8CFB9F80
+[2015.04.06-19.04.27:120][660]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.04.27:131][660]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.04.27:212][660]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.06-19.04.27:213][660]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:04:27 PM)
+[2015.04.06-19.04.27:244][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030711s)
+[2015.04.06-19.04.27:245][660]LogPlayLevel: PIE: World Init took: (0.001419s)
+[2015.04.06-19.04.27:245][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032455s)
+[2015.04.06-19.04.27:309][660]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.04.27:313][660]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.04.27:321][660]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.04.27
+[2015.04.06-19.04.27:322][660]LogWorld: Bringing up level for play took: 0.008110
+[2015.04.06-19.04.27:335][660]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.102
+[2015.04.06-19.04.32:114][803]LogBlueprintUserMessages: Translation: X=-816.933 Y=1776.909 Z=3307.974 Rotation: P=-59.631226 Y=17.301369 R=-12.563202 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.04.37:122][959]LogBlueprintUserMessages: Translation: X=-471.864 Y=4.533 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.04.42:152][101]LogBlueprintUserMessages: Translation: X=-1111.890 Y=-41.387 Z=1835.422 Rotation: P=-72.451782 Y=-23.126312 R=10.509627 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.04.46:144][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FCAD6EAC0
+[2015.04.06-19.04.50:680][598]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.04.50:690][598]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.04.50:773][598]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.04.06-19.04.50:773][598]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:04:50 PM)
+[2015.04.06-19.04.50:806][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032529s)
+[2015.04.06-19.04.50:808][598]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2015.04.06-19.04.50:808][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034492s)
+[2015.04.06-19.04.50:868][598]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.04.50:871][598]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.04.50:878][598]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.04.50
+[2015.04.06-19.04.50:879][598]LogWorld: Bringing up level for play took: 0.007595
+[2015.04.06-19.04.50:888][598]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.549
+[2015.04.06-19.04.55:676][747]LogBlueprintUserMessages: Translation: X=-502.279 Y=72.889 Z=442.883 Rotation: P=-67.206360 Y=-9.731720 R=-1.574158 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.05.00:698][887]LogBlueprintUserMessages: Translation: X=-657.288 Y=-15.045 Z=321.822 Rotation: P=-63.125397 Y=-25.610748 R=8.408922 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.05.02:012][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FD86FB920
+[2015.04.06-19.05.07:673][423]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.05.07:681][423]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.05.07:761][423]LogPlayLevel: PIE:  Blueprint regeneration took 87 ms (1 blueprints)
+[2015.04.06-19.05.07:761][423]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:05:07 PM)
+[2015.04.06-19.05.07:791][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029177s)
+[2015.04.06-19.05.07:792][423]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2015.04.06-19.05.07:792][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030275s)
+[2015.04.06-19.05.07:906][423]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.05.07:908][423]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.05.07:915][423]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.05.07
+[2015.04.06-19.05.07:916][423]LogWorld: Bringing up level for play took: 0.007398
+[2015.04.06-19.05.07:926][423]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.489
+[2015.04.06-19.05.12:659][560]LogBlueprintUserMessages: Translation: X=-484.725 Y=80.177 Z=297.813 Rotation: P=-71.442871 Y=1.268087 R=-2.029785 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.05.17:666][698]LogBlueprintUserMessages: Translation: X=-451.149 Y=-99.189 Z=297.073 Rotation: P=-85.177277 Y=20.108244 R=-44.604034 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.05.19:961][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F8CEA2B60
+[2015.04.06-19.06.21:823][478]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.06.21:830][478]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.06.21:886][478]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.06.21:969][478]LogPlayLevel: PIE:  Blueprint regeneration took 146 ms (2 blueprints)
+[2015.04.06-19.06.21:969][478]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:06:21 PM)
+[2015.04.06-19.06.22:001][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030904s)
+[2015.04.06-19.06.22:003][478]LogPlayLevel: PIE: World Init took: (0.001743s)
+[2015.04.06-19.06.22:003][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033138s)
+[2015.04.06-19.06.22:055][478]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.06.22:057][478]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.06.22:065][478]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.06.22
+[2015.04.06-19.06.22:066][478]LogWorld: Bringing up level for play took: 0.007724
+[2015.04.06-19.06.22:067][478]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.629
+[2015.04.06-19.06.26:779][772]LogBlueprintUserMessages: Translation: X=-431.190 Y=33.277 Z=280.991 Rotation: P=-81.636993 Y=-39.728088 R=29.196974 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.06.31:786][ 60]LogBlueprintUserMessages: Translation: X=-450.869 Y=91.111 Z=358.987 Rotation: P=-68.925720 Y=-10.327454 R=7.794073 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.06.32:469][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F904296C0
+[2015.04.06-19.06.35:926][140]LogSavePackage: Save=2269.461426ms
+[2015.04.06-19.06.35:926][140]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/FirstPersonExampleMapF0F25B0245866278E39673867897BC86.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.06-19.06.35:956][140]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.483
+[2015.04.06-19.06.35:965][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset" SILENT=true
+[2015.04.06-19.06.36:012][140]LogSavePackage: Save=40.684193ms
+[2015.04.06-19.06.36:012][140]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition54FD72D74ABB7CCA3B51AA9203253AF6.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset'
+[2015.04.06-19.06.36:094][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-19.06.36:576][140]LogSavePackage: Save=476.927765ms
+[2015.04.06-19.06.36:576][140]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile6160B6E5478D0E240421CFA48D4BB046.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-19.07.05:397][243]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.06-19.07.10:269][470]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:283][471]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:298][472]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:312][473]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:340][475]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:355][476]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:370][477]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:385][478]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:399][479]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:413][480]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:426][481]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:441][482]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:456][483]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:471][484]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:471][484]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:487][485]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:502][486]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:516][487]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:531][488]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:546][489]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:560][490]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:560][490]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:574][491]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:589][492]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:604][493]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:691][499]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:705][500]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:721][501]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:735][502]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:751][503]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:765][504]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:766][504]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:780][505]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:795][506]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:808][507]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:809][507]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:823][508]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:838][509]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:853][510]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:854][510]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.10:868][511]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_8:PersistentLevel.Projectile_C_66.Representation)
+[2015.04.06-19.07.14:217][724]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.06-19.07.21:058][ 33]LogEditorTransaction: Undo Edit Sphere Radius
+[2015.04.06-19.07.32:649][726]LogEditorTransaction: Undo Set actor scale
+[2015.04.06-19.16.33:416][176]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.030
+[2015.04.06-19.16.33:466][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GrabRecognition] ([1] browsable assets)...
+[2015.04.06-19.16.33:477][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabRecognition]
+[2015.04.06-19.16.33:482][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-19.16.33:622][176]LogSavePackage: Save=124.320381ms
+[2015.04.06-19.16.33:623][176]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition_Auto271056C2642B5F85507EADBBF9DBACCC6.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto2.uasset'
+[2015.04.06-19.16.33:750][176]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Projectile] ([1] browsable assets)...
+[2015.04.06-19.16.33:776][176]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Projectile.Projectile]
+[2015.04.06-19.16.33:776][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/Projectile]
+[2015.04.06-19.16.33:779][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-19.16.34:269][176]LogSavePackage: Save=480.091309ms
+[2015.04.06-19.16.34:270][176]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile_Auto20DCB58824BE5B96DA1FF69A0C10A51F4.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto2.uasset'
+[2015.04.06-19.16.34:280][176]LogFileHelpers: Auto-saving content packages took 0.864
+[2015.04.06-19.25.30:484][ 89]LogEditorTransaction: Undo Set actor scale
+[2015.04.06-19.25.30:806][ 96]Cmd: TRANSACTION UNDO
+[2015.04.06-19.25.30:806][ 96]LogEditorTransaction: Undo Set actor scale
+[2015.04.06-19.25.32:757][177]Cmd: TRANSACTION UNDO
+[2015.04.06-19.25.32:757][177]LogEditorTransaction: Undo Set actor scale
+[2015.04.06-19.25.33:354][203]Cmd: TRANSACTION UNDO
+[2015.04.06-19.25.33:354][203]LogEditorTransaction: Undo Set actor scale
+[2015.04.06-19.26.33:927][161]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.04.06-19.26.33:927][161]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.04.06-19.26.41:457][814]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.025
+[2015.04.06-19.26.41:498][814]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GrabRecognition] ([1] browsable assets)...
+[2015.04.06-19.26.41:528][814]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabRecognition]
+[2015.04.06-19.26.41:531][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-19.26.41:760][814]LogSavePackage: Save=222.810410ms
+[2015.04.06-19.26.41:761][814]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognition_Auto366904A9245892E9CA02A9DA4BD51894D.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/GrabRecognition_Auto3.uasset'
+[2015.04.06-19.26.41:829][814]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Projectile] ([1] browsable assets)...
+[2015.04.06-19.26.41:883][814]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Projectile.Projectile]
+[2015.04.06-19.26.41:883][814]OBJ SavePackage: Finished generating thumbnails for package [/Game/Projectile]
+[2015.04.06-19.26.41:885][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.04.06-19.26.42:322][814]LogSavePackage: Save=431.641724ms
+[2015.04.06-19.26.42:323][814]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Projectile_Auto3B23E5F124B2FBA0AEE7BAAA0C56597F0.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/Autosaves/Game/Projectile_Auto3.uasset'
+[2015.04.06-19.26.42:331][814]LogFileHelpers: Auto-saving content packages took 0.875
+[2015.04.06-19.28.34:818][734]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2015.04.06-19.28.34:903][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.06-19.28.34:963][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.06-19.28.34:963][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.06-19.28.34:963][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.06-19.28.34:963][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.06-19.28.34:967][734]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2015.04.06-19.28.34:972][734]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.28.39:195][935]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.28.39:225][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.06-19.28.39:268][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.06-19.28.39:268][935]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.06-19.28.39:268][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.06-19.28.39:268][935]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.06-19.28.39:286][935]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.28.39:292][935]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.28.40:141][979]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.28.40:141][979]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.28.40:141][979]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.28.40:141][979]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.28.53:299][931]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.28.53:304][931]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.28.54:273][  4]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.28.54:273][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.28.54:273][  4]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.28.54:273][  4]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.28.54:847][ 42]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.28.54:853][ 42]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.28.55:758][114]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.28.55:758][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.28.55:758][114]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.28.55:759][114]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.01:273][565]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.29.01:279][565]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.02:216][640]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.02:216][640]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.02:216][640]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.02:216][640]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.03:490][729]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.29.03:495][729]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.04:398][791]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.04:398][791]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.04:398][791]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.04:398][791]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.05:003][841]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.29.05:010][841]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.05:938][910]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.05:938][910]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.05:938][910]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.05:939][910]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.07:966][ 82]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.29.07:971][ 82]LogMaterial: 0.000148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.09:167][165]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.09:167][165]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.09:167][165]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.09:168][165]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.11:609][338]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.06-19.29.11:614][338]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.12:724][392]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.12:724][392]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.12:724][392]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.12:724][392]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.27:545][ 41]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.04.06-19.29.27:579][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.06-19.29.27:623][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.06-19.29.27:623][ 41]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.06-19.29.27:623][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.06-19.29.27:623][ 41]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.06-19.29.27:626][ 41]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.04.06-19.29.27:631][ 41]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.28:514][ 97]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.28:514][ 97]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.28:514][ 97]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.28:514][ 97]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.31:348][232]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.04.06-19.29.31:398][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.06-19.29.31:443][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.06-19.29.31:443][232]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.06-19.29.31:443][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.06-19.29.31:443][232]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.06-19.29.31:446][232]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2015.04.06-19.29.31:452][232]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.32:422][290]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.06-19.29.32:422][290]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.06-19.29.32:422][290]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.32:422][290]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.29.37:945][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.06-19.29.37:946][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.06-19.29.43:783][734]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.04.06-19.29.43:811][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.06-19.29.43:855][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.06-19.29.43:855][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.04.06-19.29.43:855][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.06-19.29.43:856][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.04.06-19.29.43:858][734]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.04.06-19.29.43:863][734]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.29.43:901][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.04.06-19.29.44:732][780]MaterialEditorStats: Info Base pass shader with static lighting: 62 instructions
+[2015.04.06-19.29.44:732][780]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.04.06-19.29.44:732][780]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.29.44:732][780]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.30.18:556][363]LogEditorTransaction: Undo Edit Sphere Radius
+[2015.04.06-19.30.18:673][363]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.04.06-19.30.18:679][363]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.06-19.30.20:084][406]MaterialEditorStats: Info Base pass shader with static lighting: 62 instructions
+[2015.04.06-19.30.20:084][406]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.04.06-19.30.20:084][406]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.06-19.30.20:084][406]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.06-19.31.34:343][447]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.31.34:352][447]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.31.34:420][447]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.31.34:490][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FE1A116C0
+[2015.04.06-19.31.34:492][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FE1AB3EC0
+[2015.04.06-19.31.34:493][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FE4DB0400
+[2015.04.06-19.31.34:493][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FDC78BCE0
+[2015.04.06-19.31.34:502][447]LogPlayLevel: PIE:  Blueprint regeneration took 158 ms (2 blueprints)
+[2015.04.06-19.31.34:502][447]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:31:34 PM)
+[2015.04.06-19.31.34:532][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028718s)
+[2015.04.06-19.31.34:534][447]LogPlayLevel: PIE: World Init took: (0.001863s)
+[2015.04.06-19.31.34:534][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030863s)
+[2015.04.06-19.31.34:591][447]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.31.34:593][447]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.31.34:600][447]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.31.34
+[2015.04.06-19.31.34:601][447]LogWorld: Bringing up level for play took: 0.007325
+[2015.04.06-19.31.34:611][447]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.174
+[2015.04.06-19.31.39:319][586]LogBlueprintUserMessages: Translation: X=-454.387 Y=53.032 Z=298.792 Rotation: P=-72.695068 Y=-12.384918 R=12.544961 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.31.44:322][728]LogBlueprintUserMessages: Translation: X=-449.286 Y=-39.277 Z=296.847 Rotation: P=-66.211060 Y=-10.857819 R=-16.389099 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.31.47:953][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FD7084220
+[2015.04.06-19.32.36:922][511]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.32.36:931][511]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.32.36:992][511]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.32.37:054][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FDF26D4E0
+[2015.04.06-19.32.37:058][511]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (2 blueprints)
+[2015.04.06-19.32.37:058][511]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:32:37 PM)
+[2015.04.06-19.32.37:087][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028614s)
+[2015.04.06-19.32.37:089][511]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2015.04.06-19.32.37:089][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030541s)
+[2015.04.06-19.32.37:159][511]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.32.37:161][511]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.32.37:169][511]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.32.37
+[2015.04.06-19.32.37:169][511]LogWorld: Bringing up level for play took: 0.007260
+[2015.04.06-19.32.37:171][511]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.267
+[2015.04.06-19.32.41:887][792]LogBlueprintUserMessages: Translation: X=-476.412 Y=4.525 Z=303.749 Rotation: P=-71.817322 Y=-19.583954 R=11.692877 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.32.46:899][ 80]LogBlueprintUserMessages: Translation: X=-479.442 Y=72.499 Z=294.309 Rotation: P=-56.269806 Y=-9.896576 R=22.718891 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.32.51:904][367]LogBlueprintUserMessages: Translation: X=-471.864 Y=4.533 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.32.56:916][670]LogBlueprintUserMessages: Translation: X=-404.778 Y=93.691 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.32.58:311][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FEA251EE0
+[2015.04.06-19.33.53:485][ 51]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.33.53:494][ 51]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.33.53:576][ 51]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.04.06-19.33.53:576][ 51]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:33:53 PM)
+[2015.04.06-19.33.53:602][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025495s)
+[2015.04.06-19.33.53:603][ 51]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2015.04.06-19.33.53:603][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026590s)
+[2015.04.06-19.33.53:717][ 51]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.33.53:719][ 51]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.33.53:726][ 51]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.33.53
+[2015.04.06-19.33.53:727][ 51]LogWorld: Bringing up level for play took: 0.007624
+[2015.04.06-19.33.53:743][ 51]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.306
+[2015.04.06-19.33.58:479][187]LogBlueprintUserMessages: Translation: X=-447.327 Y=-7.348 Z=267.004 Rotation: P=-77.089813 Y=-24.708313 R=10.317655 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.34.03:485][333]LogBlueprintUserMessages: Translation: X=-472.163 Y=-5.234 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.34.04:931][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FD594ECA0
+[2015.04.06-19.35.26:768][208]LogSavePackage: Save=2260.159912ms
+[2015.04.06-19.35.26:768][208]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/FirstPersonExampleMapCDADAC68452DB66B2908C9960DE381FF.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.06-19.35.26:796][208]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.482
+[2015.04.06-19.35.26:803][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabRecognition" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset" SILENT=true
+[2015.04.06-19.35.26:853][208]LogSavePackage: Save=44.592781ms
+[2015.04.06-19.35.26:853][208]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/GrabRecognitionDADB2C6448EF2461155D16BEE3327D41.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/GrabRecognition.uasset'
+[2015.04.06-19.35.26:883][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Projectile" FILE="../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset" SILENT=true
+[2015.04.06-19.35.27:246][208]LogSavePackage: Save=349.352417ms
+[2015.04.06-19.35.27:246][208]LogSavePackage: Moving '../../../../../../../Github/Ingenuity/IngenuityBasic/Saved/ProjectileF27467984C780749E75127A59F9B9575.tmp' to '../../../../../../../Github/Ingenuity/IngenuityBasic/Content/Projectile.uasset'
+[2015.04.06-19.35.28:845][278]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.35.28:857][278]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.35.28:945][278]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2015.04.06-19.35.28:945][278]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:35:28 PM)
+[2015.04.06-19.35.28:976][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030319s)
+[2015.04.06-19.35.28:977][278]LogPlayLevel: PIE: World Init took: (0.001454s)
+[2015.04.06-19.35.28:978][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032059s)
+[2015.04.06-19.35.29:033][278]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.35.29:035][278]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.35.29:044][278]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.35.29
+[2015.04.06-19.35.29:044][278]LogWorld: Bringing up level for play took: 0.007578
+[2015.04.06-19.35.29:045][278]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.392
+[2015.04.06-19.35.33:823][558]LogBlueprintUserMessages: Translation: X=-457.525 Y=62.412 Z=284.979 Rotation: P=-63.141968 Y=-8.748840 R=9.065147 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.35.38:835][851]LogBlueprintUserMessages: Translation: X=-414.564 Y=53.937 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.35.40:205][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FDE565440
+[2015.04.06-19.37.56:706][691]BlueprintLog: New page: Compile Projectile
+[2015.04.06-19.37.56:812][691]BlueprintEditorCompileResults: Info [3113.25] Compile of Projectile successful! [in 105 ms]
+[2015.04.06-19.37.58:030][768]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.37.59:988][886]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.37.59:993][886]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.38.00:072][886]LogPlayLevel: PIE:  Blueprint regeneration took 83 ms (1 blueprints)
+[2015.04.06-19.38.00:073][886]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:38:00 PM)
+[2015.04.06-19.38.00:101][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027854s)
+[2015.04.06-19.38.00:103][886]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2015.04.06-19.38.00:103][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029756s)
+[2015.04.06-19.38.00:160][886]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.38.00:163][886]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.38.00:171][886]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.38.00
+[2015.04.06-19.38.00:172][886]LogWorld: Bringing up level for play took: 0.007674
+[2015.04.06-19.38.00:183][886]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.745
+[2015.04.06-19.38.04:994][ 37]LogBlueprintUserMessages: Translation: X=-444.757 Y=37.451 Z=293.808 Rotation: P=-77.225952 Y=-16.118408 R=1.611227 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.38.04:994][ 37]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.38.09:227][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FE4FBAFC0
+[2015.04.06-19.38.22:947][272]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.38.22:954][272]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.38.23:015][272]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.38.23:097][272]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (2 blueprints)
+[2015.04.06-19.38.23:097][272]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:38:23 PM)
+[2015.04.06-19.38.23:126][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027977s)
+[2015.04.06-19.38.23:127][272]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2015.04.06-19.38.23:127][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029017s)
+[2015.04.06-19.38.23:233][272]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.38.23:236][272]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.38.23:243][272]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.38.23
+[2015.04.06-19.38.23:244][272]LogWorld: Bringing up level for play took: 0.007181
+[2015.04.06-19.38.23:254][272]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.183
+[2015.04.06-19.38.27:942][402]LogBlueprintUserMessages: Translation: X=-445.264 Y=38.360 Z=303.076 Rotation: P=-64.445404 Y=-0.451904 R=-11.094360 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.38.27:943][402]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.38.32:955][545]LogBlueprintUserMessages: Translation: X=-471.864 Y=4.533 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.38.32:956][545]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.38.37:971][689]LogBlueprintUserMessages: Translation: X=-423.705 Y=95.920 Z=186.637 Rotation: P=0.000000 Y=0.000000 R=-0.000000 Scale X=0.100 Y=0.100 Z=0.100
+[2015.04.06-19.38.37:972][689]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.38.38:882][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FDC789DA0
+[2015.04.06-19.40.57:190][770]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.40.57:199][770]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.40.57:261][770]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.40.57:335][770]LogPlayLevel: PIE:  Blueprint regeneration took 144 ms (2 blueprints)
+[2015.04.06-19.40.57:335][770]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:40:57 PM)
+[2015.04.06-19.40.57:363][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026752s)
+[2015.04.06-19.40.57:365][770]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2015.04.06-19.40.57:365][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028427s)
+[2015.04.06-19.40.57:422][770]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.40.57:424][770]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.40.57:432][770]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.40.57
+[2015.04.06-19.40.57:432][770]LogWorld: Bringing up level for play took: 0.007649
+[2015.04.06-19.40.57:448][770]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.01
+[2015.04.06-19.41.02:176][919]LogBlueprintUserMessages: Translation: X=-442.939 Y=59.465 Z=296.553 Rotation: P=-70.737915 Y=11.986497 R=-6.722717 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.41.02:177][919]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.41.04:688][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FDC789760
+[2015.04.06-19.42.16:824][409]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.42.18:912][527]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.42.18:921][527]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.42.18:981][527]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.42.19:054][527]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (2 blueprints)
+[2015.04.06-19.42.19:054][527]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:42:19 PM)
+[2015.04.06-19.42.19:081][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025363s)
+[2015.04.06-19.42.19:082][527]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2015.04.06-19.42.19:082][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027083s)
+[2015.04.06-19.42.19:141][527]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.42.19:144][527]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.42.19:151][527]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.42.19
+[2015.04.06-19.42.19:151][527]LogWorld: Bringing up level for play took: 0.007173
+[2015.04.06-19.42.19:167][527]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.271
+[2015.04.06-19.42.23:909][675]LogBlueprintUserMessages: Translation: X=-440.147 Y=34.398 Z=291.756 Rotation: P=-78.452850 Y=19.089647 R=-25.215393 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.42.23:910][675]LogBlueprintUserMessages: Added Fire
+[2015.04.06-19.42.27:844][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FEA27FF60
+[2015.04.06-19.42.39:355][794]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.42.39:360][794]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.42.39:424][794]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.42.39:492][794]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (2 blueprints)
+[2015.04.06-19.42.39:492][794]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:42:39 PM)
+[2015.04.06-19.42.39:522][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029327s)
+[2015.04.06-19.42.39:524][794]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2015.04.06-19.42.39:524][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030744s)
+[2015.04.06-19.42.39:580][794]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.42.39:583][794]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.42.39:590][794]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.42.39
+[2015.04.06-19.42.39:591][794]LogWorld: Bringing up level for play took: 0.007562
+[2015.04.06-19.42.39:602][794]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.164
+[2015.04.06-19.42.44:345][946]LogBlueprintUserMessages: Translation: X=-493.755 Y=-104.984 Z=290.801 Rotation: P=-86.255035 Y=-60.174377 R=48.111992 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.42.46:005][995]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FE7BD6660
+[2015.04.06-19.43.33:662][744]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.43.33:670][744]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.43.33:732][744]LogPlayLevel: [PIE] Compiling Projectile before PIE...
+[2015.04.06-19.43.33:800][744]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (2 blueprints)
+[2015.04.06-19.43.33:800][744]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:43:33 PM)
+[2015.04.06-19.43.33:827][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026977s)
+[2015.04.06-19.43.33:829][744]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2015.04.06-19.43.33:829][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028643s)
+[2015.04.06-19.43.33:884][744]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.06-19.43.33:887][744]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.06-19.43.33:894][744]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.06-21.43.33
+[2015.04.06-19.43.33:895][744]LogWorld: Bringing up level for play took: 0.007549
+[2015.04.06-19.43.33:907][744]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.471
+[2015.04.06-19.43.38:651][890]LogBlueprintUserMessages: Translation: X=-473.713 Y=41.180 Z=303.023 Rotation: P=-64.970032 Y=-16.000793 R=3.286999 Scale X=1.000 Y=1.000 Z=1.000
+[2015.04.06-19.43.40:957][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008FDF09DBC0
+[2015.04.06-19.44.04:738][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.06-19.44.04:745][804]LogPlayLevel: [PIE] Compiling GrabRecognition before PIE...
+[2015.04.06-19.44.04:824][804]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2015.04.06-19.44.04:824][804]PIE: New page: PIE session: FirstPersonExampleMap (Apr 6, 2015, 11:44:04 PM)
+[2015.04.06-19.44.04:852][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.
