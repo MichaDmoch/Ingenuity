@@ -1,148 +1,659 @@
-﻿Log file open, 04/25/15 15:15:00
+﻿Log file open, 04/25/15 22:34:52
 LogInit:Display: Running engine for game: IngenuityBasic
-LogInit: Version: 4.7.3-0+++depot+UE4-Releases+4.7
+LogInit: Version: 4.7.6-0+++depot+UE4-Releases+4.7
 LogInit: API Version: 0
-LogInit: Compiled (64-bit): Mar 27 2015 22:52:39
+LogInit: Compiled (64-bit): Apr 25 2015 21:40:41
 LogInit: Compiled with Visual C++: 18.00.31101.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line: 
-LogInit: Base directory: C:/Users/Scardan/Desktop/UnrealEngine-release/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 0
-[2015.04.25-13.15.00:045][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.04.25-13.15.00:092][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.04.25-13.15.00:101][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.04.25-13.15.00:110][  0]LogInit: Object subsystem initialized
-[2015.04.25-13.15.00:111][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.04.25-13.15.00:111][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.25-13.15.00:111][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.04.25-13.15.00:111][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.25-13.15.00:111][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.04.25-13.15.00:111][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.25-13.15.00:112][  0]LogInit: Selected Device Profile: [Windows]
-[2015.04.25-13.15.00:112][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.04.25-13.15.00:121][  0]LogInit: Computer: LOKI
-[2015.04.25-13.15.00:121][  0]LogInit: User: Scardan
-[2015.04.25-13.15.00:121][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.04.25-13.15.00:121][  0]LogInit: High frequency timer resolution =2.435800 MHz
-[2015.04.25-13.15.00:121][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
-[2015.04.25-13.15.00:121][  0]LogMemory: Platform Memory Stats for Windows
-[2015.04.25-13.15.00:121][  0]LogMemory: Process Physical Memory: 48.19 MB used, 48.19 MB peak
-[2015.04.25-13.15.00:121][  0]LogMemory: Process Virtual Memory: 28.31 MB used, 28.32 MB peak
-[2015.04.25-13.15.00:121][  0]LogMemory: Physical Memory: 3541.90 MB used, 8108.36 MB total
-[2015.04.25-13.15.00:121][  0]LogMemory: Virtual Memory: 280.38 MB used, 8388608.00 MB total
-[2015.04.25-13.15.00:144][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.04.25-13.15.00:144][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2015.04.25-13.15.00:144][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.04.25-13.15.00:150][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
-[2015.04.25-13.15.00:160][  0]LogD3D11RHI: Async texture creation enabled
-[2015.04.25-13.15.00:717][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.04.25-13.15.00:804][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
-Resource: (C:/Users/Scardan/Desktop/UnrealEngine-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
-Resource: (C:/Users/Scardan/Desktop/UnrealEngine-release/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.04.25-13.15.00:804][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Resource: (C:/Users/Scardan/Desktop/UnrealEngine-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
-Resource: (C:/Users/Scardan/Desktop/UnrealEngine-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.04.25-13.15.00:887][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.04.25-13.15.02:913][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.25-13.15.03:358][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.25-13.15.03:404][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.04.25-13.15.03:566][  0]LogDerivedDataCache: Loaded boot cache 0.16s 40MB ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
-[2015.04.25-13.15.03:566][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc
-[2015.04.25-13.15.03:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.04.25-13.15.03:566][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.04.25-13.15.03:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.04.25-13.15.03:566][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2015.04.25-13.15.03:578][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2015.04.25-13.15.03:578][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2015.04.25-13.15.03:578][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2015.04.25-13.15.03:874][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.04.25-13.15.03:874][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.04.25-13.15.04:300][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.04.25-13.15.04:358][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.04.25-13.15.05:079][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.04.25-13.15.05:277][  0]SourceControl: Info Source control is disabled
-[2015.04.25-13.15.05:277][  0]SourceControl: Info Source control is disabled
-[2015.04.25-13.15.05:277][  0]SourceControl: Info Source control is disabled
-[2015.04.25-13.15.05:277][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.04.25-13.15.05:277][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.04.25-13.15.05:283][  0]SourceControl: Info Source control is disabled
-[2015.04.25-13.15.05:472][  0]LogObj: 24401 objects as part of root set at end of initial load.
-[2015.04.25-13.15.05:472][  0]LogUObjectAllocator: 5182080 out of 0 bytes used by permanent object pool.
-[2015.04.25-13.15.05:540][  0]LogEngine: Initializing Engine...
-[2015.04.25-13.15.07:787][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.04.25-13.15.07:797][  0]LogInit: FAudioDevice initialized.
-[2015.04.25-13.15.07:823][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.04.25-13.15.07:869][  0]LogDerivedDataCache: Saved boot cache 0.05s 40MB ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
-[2015.04.25-13.15.07:873][  0]LogInit: Texture streaming: Enabled
-[2015.04.25-13.15.07:948][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.04.25-13.15.07:948][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.3-0+++depot+UE4-Releases+4.7
-[2015.04.25-13.15.07:948][  0]LogAnalytics: SetUserId 92f236fd4abf3ad736ca67a71ac17b00|82d0a04204254179a8e7c8a211110ec7|b3756103-6e77-4ae0-841f-8cf86ad08b6c
-[2015.04.25-13.15.07:949][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
-[2015.04.25-13.15.07:992][  0]LogInit: Transaction tracking system initialized
-[2015.04.25-13.15.08:109][  0]BlueprintLog: New page: Editor Load
-[2015.04.25-13.15.08:134][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
-[2015.04.25-13.15.08:134][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.04.25-13.15.08:627][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.25-13.15.09:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.25-13.15.09:242][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.04.25-13.15.09:243][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.04.25-13.15.09:282][  0]LogConsoleResponse:Display: 
-[2015.04.25-13.15.09:407][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.04.25-13.15.09:502][  0]SourceControl: Info Source control is disabled
-[2015.04.25-13.15.09:502][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.04.25-13.15.09:506][  0]LightingResults: New page: Lighting Build
-[2015.04.25-13.15.09:514][  0]MapCheck: New page: Map Check
-[2015.04.25-13.15.09:514][  0]LightingResults: New page: Lighting Build
-[2015.04.25-13.15.09:523][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018BB4EA0
-[2015.04.25-13.15.11:713][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
-[2015.04.25-13.15.11:714][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold for platform PCD3D_SM5, Default Material will be used in game.
-[2015.04.25-13.15.11:714][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/StarterContent/Textures/T_Metal_Gold_D.T_Metal_Gold_D
-[2015.04.25-13.15.11:782][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.04.25-13.15.11:782][  0]LogAIModule: Creating AISystem for world HardLevel
-[2015.04.25-13.15.11:783][  0]Cmd: MAP CHECKDEP
-[2015.04.25-13.15.11:783][  0]MapCheck: New page: HardLevel - Apr 25, 2015, 5:15:11 PM
-[2015.04.25-13.15.11:898][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.542ms to complete.
-[2015.04.25-13.15.11:898][  0]LogFileHelpers: Loading map 'HardLevel' took 2.396
-[2015.04.25-13.15.12:127][  0]LogCollectionManager: Loaded 0 collections in 0.001054 seconds
-[2015.04.25-13.15.12:140][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 1708 classes and 264 folders.
-[2015.04.25-13.15.12:191][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0036 seconds. Added 1 classes and 2 folders.
-[2015.04.25-13.15.12:321][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.04.25-13.15.12:325][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.04.25-13.15.12:331][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.04.25-13.15.12:360][  0]LogLoad: Full Startup: 14.03 seconds (BP compile: 1.07 seconds)
-[2015.04.25-13.15.12:817][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/Traps'
-[2015.04.25-13.15.12:968][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.04.25-13.15.13:191][  0]LogRenderer:Warning: Reallocating scene render targets to support 872x448 (Frame:8).
-[2015.04.25-13.15.15:511][  7]LogAssetRegistry: Asset discovery search completed in 7.3872 seconds
-[2015.04.25-13.15.20:956][ 24]LogLinker:Warning: Can't resolve asset name
-[2015.04.25-13.15.28:276][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/AI'
-[2015.04.25-13.15.52:804][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.NavModifierComponent_2) Not registered. Aborting.
-[2015.04.25-13.16.02:260][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/Levels'
-[2015.04.25-13.16.04:919][625]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/Traps'
-[2015.04.25-13.16.08:309][821]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter'
-[2015.04.25-13.16.12:028][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.NavModifierComponent_2) Not registered. Aborting.
-[2015.04.25-13.16.12:455][ 30]LogSavePackage: Save=351.004181ms
-[2015.04.25-13.16.12:455][ 30]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevelE84A8CF14F2F0668529CBA8EC79E7605.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
-[2015.04.25-13.17.33:245][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.04.25-13.18.00:279][131]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter'
-[2015.04.25-13.18.27:076][536]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.04.25-13.18.27:077][536]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.04.25-13.18.42:682][306]LogSourceControl:Error: P4ERROR: Invalid connection to server.
-[2015.04.25-13.18.42:682][306]LogSourceControl:Error: Connect to server failed; check $P4PORT.
-TCP connect to perforce:1666 failed.
-Der angeforderte Name ist g?ltig, es wurden jedoch keine Daten des angeforderten Typs gefunden. 
-
-[2015.04.25-13.18.48:813][651]SourceControl: Info Source control is disabled
-[2015.04.25-13.18.58:360][212]LogContentBrowser: Native class hierarchy updated for 'ReferenceViewer' in 0.0050 seconds. Added 3 classes and 2 folders.
-[2015.04.25-13.19.21:377][356]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/AI'
-[2015.04.25-13.19.23:961][511]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/AI/Blueprints'
-[2015.04.25-13.20.02:201][777]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/Levels'
-[2015.04.25-13.20.03:523][856]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/AI/Mob'
-[2015.04.25-13.20.04:880][909]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.04.25-13.20.05:952][973]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter'
-[2015.04.25-13.21.59:052][987]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.04.25-13.22.05:570][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter'
-[2015.04.25-13.22.07:058][467]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.04.25-13.22.08:044][526]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.04.25-13.22.10:844][694]L
+[2015.04.25-20.34.52:306][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.25-20.34.52:371][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.25-20.34.52:390][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.25-20.34.52:398][  0]LogInit: Object subsystem initialized
+[2015.04.25-20.34.52:400][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.25-20.34.52:400][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-20.34.52:400][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.25-20.34.52:400][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-20.34.52:400][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.25-20.34.52:400][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-20.34.52:400][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.25-20.34.52:400][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.25-20.34.52:409][  0]LogInit: Computer: LOKI
+[2015.04.25-20.34.52:409][  0]LogInit: User: Scardan
+[2015.04.25-20.34.52:409][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.25-20.34.52:409][  0]LogInit: High frequency timer resolution =2.435800 MHz
+[2015.04.25-20.34.52:410][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.25-20.34.52:410][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.25-20.34.52:410][  0]LogMemory: Process Physical Memory: 48.10 MB used, 48.10 MB peak
+[2015.04.25-20.34.52:410][  0]LogMemory: Process Virtual Memory: 26.42 MB used, 26.42 MB peak
+[2015.04.25-20.34.52:410][  0]LogMemory: Physical Memory: 3589.22 MB used, 8108.36 MB total
+[2015.04.25-20.34.52:410][  0]LogMemory: Virtual Memory: 278.30 MB used, 8388608.00 MB total
+[2015.04.25-20.34.52:434][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.25-20.34.52:434][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.04.25-20.34.52:434][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.25-20.34.52:441][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.04.25-20.34.52:451][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.25-20.34.53:007][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.25-20.34.53:091][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.25-20.34.53:092][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.25-20.34.53:173][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.25-20.34.55:283][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-20.34.55:759][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-20.34.55:809][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.25-20.34.55:959][  0]LogDerivedDataCache: Loaded boot cache 0.15s 40MB ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.25-20.34.55:959][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc
+[2015.04.25-20.34.55:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.25-20.34.55:959][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.25-20.34.55:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.25-20.34.55:959][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.04.25-20.34.55:971][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.04.25-20.34.55:971][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.04.25-20.34.55:971][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.04.25-20.34.56:262][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.25-20.34.56:262][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.25-20.34.56:663][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.25-20.34.56:729][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.25-20.34.57:478][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.25-20.34.57:694][  0]SourceControl: Info Source control is disabled
+[2015.04.25-20.34.57:694][  0]SourceControl: Info Source control is disabled
+[2015.04.25-20.34.57:694][  0]SourceControl: Info Source control is disabled
+[2015.04.25-20.34.57:694][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.25-20.34.57:694][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.25-20.34.57:701][  0]SourceControl: Info Source control is disabled
+[2015.04.25-20.34.57:883][  0]LogObj: 24402 objects as part of root set at end of initial load.
+[2015.04.25-20.34.57:883][  0]LogUObjectAllocator: 5182816 out of 0 bytes used by permanent object pool.
+[2015.04.25-20.34.57:956][  0]LogEngine: Initializing Engine...
+[2015.04.25-20.35.00:129][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.25-20.35.00:139][  0]LogInit: FAudioDevice initialized.
+[2015.04.25-20.35.00:169][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.25-20.35.00:194][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.25-20.35.00:198][  0]LogInit: Texture streaming: Enabled
+[2015.04.25-20.35.00:279][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.25-20.35.00:279][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
+[2015.04.25-20.35.00:279][  0]LogAnalytics: SetUserId 92f236fd4abf3ad736ca67a71ac17b00|82d0a04204254179a8e7c8a211110ec7|b3756103-6e77-4ae0-841f-8cf86ad08b6c
+[2015.04.25-20.35.00:279][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2015.04.25-20.35.00:323][  0]LogInit: Transaction tracking system initialized
+[2015.04.25-20.35.00:454][  0]BlueprintLog: New page: Editor Load
+[2015.04.25-20.35.00:482][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2015.04.25-20.35.00:482][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.25-20.35.01:034][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-20.35.01:431][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-20.35.01:633][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.25-20.35.01:634][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.25-20.35.01:638][  0]LogConsoleResponse:Display: 
+[2015.04.25-20.35.01:763][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.25-20.35.01:878][  0]SourceControl: Info Source control is disabled
+[2015.04.25-20.35.01:878][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-20.35.01:878][  0]LightingResults: New page: Lighting Build
+[2015.04.25-20.35.01:888][  0]MapCheck: New page: Map Check
+[2015.04.25-20.35.01:888][  0]LightingResults: New page: Lighting Build
+[2015.04.25-20.35.01:898][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187C9DA0
+[2015.04.25-20.35.03:866][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2015.04.25-20.35.03:866][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.25-20.35.03:866][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/StarterContent/Textures/T_Metal_Gold_D.T_Metal_Gold_D
+[2015.04.25-20.35.03:928][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-20.35.03:960][  0]LogAIModule: Creating AISystem for world HardLevel
+[2015.04.25-20.35.03:960][  0]Cmd: MAP CHECKDEP
+[2015.04.25-20.35.03:961][  0]MapCheck: New page: HardLevel - Apr 26, 2015, 12:35:03 AM
+[2015.04.25-20.35.04:070][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.047ms to complete.
+[2015.04.25-20.35.04:070][  0]LogFileHelpers: Loading map 'HardLevel' took 2.192
+[2015.04.25-20.35.04:215][  0]LogCollectionManager: Loaded 0 collections in 0.001332 seconds
+[2015.04.25-20.35.04:228][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 1708 classes and 264 folders.
+[2015.04.25-20.35.04:257][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
+[2015.04.25-20.35.04:317][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.25-20.35.04:318][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.25-20.35.04:323][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.25-20.35.04:353][  0]LogLoad: Full Startup: 13.83 seconds (BP compile: 0.99 seconds)
+[2015.04.25-20.35.04:418][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/IngenuityStarter/AI/Blueprints'
+[2015.04.25-20.35.04:573][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.25-20.35.04:709][  0]LogRenderer:Warning: Reallocating scene render targets to support 880x456 (Frame:3).
+[2015.04.25-20.35.05:629][  3]LogEditorViewport: Clicking Background
+[2015.04.25-20.35.06:011][  5]LogAssetRegistry: Asset discovery search completed in 5.5394 seconds
+[2015.04.25-20.35.57:022][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.04.25-20.37.35:784][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-20.37.36:410][479]LogSavePackage: Save=314.356689ms
+[2015.04.25-20.37.36:410][479]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevel1221B02A4AD19F62C5EEF4B195990751.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
+[2015.04.25-20.37.36:456][479]LogFileHelpers: Saving map 'HardLevel' took 0.587
+[2015.04.25-20.38.22:946][795]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2015.04.25-20.38.22:961][795]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.04.25-20.38.24:199][867]LogEditorActor: Deleted Actor: RecastNavMesh
+[2015.04.25-20.38.24:212][867]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.04.25-20.38.46:105][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.04.25-20.38.46:317][833]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.04.25-20.38.51:091][ 59]Cmd: TRANSACTION UNDO
+[2015.04.25-20.38.51:091][ 59]LogEditorTransaction: Undo Scale Components
+[2015.04.25-20.38.51:534][ 69]Cmd: TRANSACTION UNDO
+[2015.04.25-20.38.51:534][ 69]LogEditorTransaction: Undo Clicking on Components
+[2015.04.25-20.38.52:209][105]Cmd: TRANSACTION UNDO
+[2015.04.25-20.38.52:209][105]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.25-20.40.04:480][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.04.25-20.40.06:384][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool1)
+[2015.04.25-20.40.07:734][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Source)
+[2015.04.25-20.40.10:262][586]Cmd: TRANSACTION UNDO
+[2015.04.25-20.40.10:262][586]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.25-20.40.10:677][596]Cmd: TRANSACTION UNDO
+[2015.04.25-20.40.10:678][596]LogEditorTransaction: Undo Move Actors
+[2015.04.25-20.40.11:112][614]Cmd: TRANSACTION UNDO
+[2015.04.25-20.40.11:112][614]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.25-20.40.11:710][645]Cmd: TRANSACTION UNDO
+[2015.04.25-20.40.11:710][645]LogEditorTransaction: Undo Scale Actors
+[2015.04.25-20.40.32:837][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-20.40.32:837][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.04.25-20.40.33:224][300]LogSavePackage: Save=314.813599ms
+[2015.04.25-20.40.33:224][300]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevelC27BBD8746F9DFEB12B9F98677DB66E9.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
+[2015.04.25-20.40.44:840][978]Cmd: MAP LOAD FILE="../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-20.40.44:886][978]LightingResults: New page: Lighting Build
+[2015.04.25-20.40.44:955][978]LoadErrors: New page: Loading map: HardLevel.umap
+[2015.04.25-20.40.44:956][978]MapCheck: New page: Map Check
+[2015.04.25-20.40.44:956][978]LightingResults: New page: Lighting Build
+[2015.04.25-20.40.44:965][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A3F79C0
+[2015.04.25-20.40.45:329][978]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-20.40.45:354][978]LogAIModule: Creating AISystem for world HardLevel
+[2015.04.25-20.40.45:395][978]Cmd: MAP CHECKDEP
+[2015.04.25-20.40.45:395][978]MapCheck: New page: HardLevel - Apr 26, 2015, 12:40:45 AM
+[2015.04.25-20.40.45:509][978]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.86ms to complete.
+[2015.04.25-20.40.45:509][978]LogFileHelpers: Loading map 'HardLevel' took 0.675
+[2015.04.25-20.41.47:261][526]LogSavePackage: Save=314.991364ms
+[2015.04.25-20.41.47:261][526]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevelB6948687409BDE05C6343397368A5B88.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
+[2015.04.25-20.41.47:310][526]LogFileHelpers: Saving map 'HardLevel' took 0.557
+[2015.04.25-20.41.50:121][686]Cmd: MAP LOAD FILE="../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-20.41.50:167][686]LightingResults: New page: Lighting Build
+[2015.04.25-20.41.50:267][686]LoadErrors: New page: Loading map: HardLevel.umap
+[2015.04.25-20.41.50:269][686]MapCheck: New page: Map Check
+[2015.04.25-20.41.50:269][686]LightingResults: New page: Lighting Build
+[2015.04.25-20.41.50:288][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E9ACAE0
+[2015.04.25-20.41.50:648][686]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-20.41.50:674][686]LogAIModule: Creating AISystem for world HardLevel
+[2015.04.25-20.41.50:716][686]Cmd: MAP CHECKDEP
+[2015.04.25-20.41.50:717][686]MapCheck: New page: HardLevel - Apr 26, 2015, 12:41:50 AM
+[2015.04.25-20.41.50:829][686]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.946ms to complete.
+[2015.04.25-20.41.50:829][686]LogFileHelpers: Loading map 'HardLevel' took 0.710
+[2015.04.25-20.42.38:276][640]LogSavePackage: Save=315.309143ms
+[2015.04.25-20.42.38:276][640]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevel185582F349F51454858DC6A8337B3D94.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
+[2015.04.25-20.42.55:336][576]LogSavePackage: Save=315.861725ms
+[2015.04.25-20.42.55:336][576]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevel16E37FEB4BB37C43DF4BF78B0FE79534.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
+[2015.04.25-20.42.55:386][576]LogFileHelpers: Saving map 'HardLevel' took 0.553
+[2015.04.25-20.42.59:218][796]Cmd: MAP LOAD FILE="../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-20.42.59:264][796]LightingResults: New page: Lighting Build
+[2015.04.25-20.42.59:354][796]LoadErrors: New page: Loading map: HardLevel.umap
+[2015.04.25-20.42.59:356][796]MapCheck: New page: Map Check
+[2015.04.25-20.42.59:356][796]LightingResults: New page: Lighting Build
+[2015.04.25-20.42.59:374][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E769F80
+[2015.04.25-20.42.59:752][796]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-20.42.59:778][796]LogAIModule: Creating AISystem for world HardLevel
+[2015.04.25-20.42.59:822][796]Cmd: MAP CHECKDEP
+[2015.04.25-20.42.59:822][796]MapCheck: New page: HardLevel - Apr 26, 2015, 12:42:59 AM
+[2015.04.25-20.42.59:935][796]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.594ms to complete.
+[2015.04.25-20.42.59:935][796]LogFileHelpers: Loading map 'HardLevel' took 0.719
+[2015.04.25-20.43.11:465][170]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.25-20.43.11:465][170]LogPlayLevel: [PIE] Compiling HardLevel before PIE...
+[2015.04.25-20.43.11:588][170]LogPlayLevel: PIE:  Blueprint regeneration took 122 ms (1 blueprints)
+[2015.04.25-20.43.11:588][170]PIE: New page: PIE session: HardLevel (Apr 26, 2015, 12:43:11 AM)
+[2015.04.25-20.43.11:599][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:599][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:599][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:599][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:600][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:600][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:600][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:601][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:601][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:601][170]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.04.25-20.43.11:603][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015002s)
+[2015.04.25-20.43.11:604][170]LogPlayLevel: PIE: World Init took: (0.000435s)
+[2015.04.25-20.43.11:604][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IngenuityStarter/Levels/HardLevel.HardLevel to /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel (0.015623s)
+[2015.04.25-20.43.11:652][170]LogWorld: Game class is 'IngenuityGameMode_C'
+[2015.04.25-20.43.11:654][170]LogAIModule: Creating AISystem for world HardLevel
+[2015.04.25-20.43.11:665][170]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.04.25-20.43.11:665][170]LogWorld: Bringing World /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel up for play (max tick rate 60) at 2015.04.25-22.43.11
+[2015.04.25-20.43.11:666][170]LogWorld: Bringing up level for play took: 0.011775
+[2015.04.25-20.43.11:671][170]PIE: Info Play in editor start time for /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel -0.085
+[2015.04.25-20.43.15:355][247]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.15:356][247]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.15:356][247]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.15:356][247]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.15:450][249]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.15:450][249]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.15:450][249]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.15:450][249]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.15:961][260]LogCharacterMovement: Mobs_C_4 is stuck and failed to move!
+[2015.04.25-20.43.21:379][374]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.21:379][374]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.21:379][374]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.21:379][374]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.21:519][377]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.21:520][377]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.21:520][377]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.21:521][377]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.28:343][513]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.28:343][513]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.28:343][513]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.28:344][513]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.28:853][523]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.28:854][523]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.28:854][523]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.28:854][523]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.32:114][583]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.32:115][583]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.32:115][583]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.32:115][583]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.34:231][619]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.34:231][619]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.34:231][619]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.34:232][619]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.37:909][683]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.37:909][683]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.37:909][683]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.37:909][683]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.38:071][686]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.38:071][686]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.38:072][686]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.38:072][686]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.38:505][694]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.38:506][694]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.38:506][694]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.38:507][694]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.39:353][710]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.39:353][710]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.39:353][710]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.39:353][710]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.40:763][734]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.40:763][734]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.40:763][734]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.40:764][734]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.40:942][737]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.40:943][737]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.40:943][737]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.40:943][737]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.42:032][755]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.42:033][755]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.42:033][755]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.42:033][755]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.42:214][758]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.42:215][758]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.42:215][758]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.42:216][758]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.44:290][795]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.44:291][795]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.44:291][795]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.44:292][795]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.44:822][805]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.44:823][805]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.44:823][805]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.44:823][805]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:106][810]LogCharacterMovement: Mobs_C_47 is stuck and failed to move!
+[2015.04.25-20.43.45:157][811]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.45:158][811]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:158][811]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.45:158][811]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:263][813]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.45:264][813]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:264][813]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.45:264][813]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:696][821]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.45:697][821]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:697][821]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.45:698][821]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:806][823]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.45:806][823]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.45:806][823]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.45:806][823]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.47:735][855]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.47:735][855]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.47:736][855]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.47:736][855]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.47:802][856]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.47:803][856]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.47:803][856]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.47:803][856]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.47:998][859]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.47:999][859]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.47:999][859]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.47:999][859]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.48:002][859]LogCharacterMovement: Mobs_C_52 is stuck and failed to move!
+[2015.04.25-20.43.48:002][859]LogCharacterMovement: Mobs_C_52 is stuck and failed to move!
+[2015.04.25-20.43.48:131][861]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.48:131][861]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.48:131][861]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.48:131][861]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.48:454][866]LogCharacterMovement: Mobs_C_54 is stuck and failed to move!
+[2015.04.25-20.43.48:509][867]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.48:509][867]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.48:509][867]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.48:509][867]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.48:705][870]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.48:705][870]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.48:705][870]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.48:705][870]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.51:347][909]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05EA
+[2015.04.25-20.43.51:347][909]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.51:347][909]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:062D
+[2015.04.25-20.43.51:347][909]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.51:992][919]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.51:992][919]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.51:992][919]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.51:992][919]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.53:716][946]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:040F
+[2015.04.25-20.43.53:716][946]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.43.53:716][946]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
+	HardLevel_C /Game/IngenuityStarter/Levels/UEDPIE_0_HardLevel.HardLevel:PersistentLevel.HardLevel_C_1
+	Function /Game/IngenuityStarter/Levels/HardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0452
+[2015.04.25-20.43.53:717][946]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2' from node 1 in blueprint HardLevel
+[2015.04.25-20.44.06:784][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AF10FE0
+[2015.04.25-20.44.21:810][ 31]LogSavePackage: Save=320.174469ms
+[2015.04.25-20.44.21:810][ 31]LogSavePackage: Moving '../../../../../Documents/Ingenuity/IngenuityBasic/Saved/HardLevel9F168D284F9CB0309A43F99C6CF4BEFA.tmp' to '../../../../../Documents/Ingenuity/IngenuityBasic/Content/IngenuityStarter/Levels/HardLevel.umap'
+[2015.04.25-20.44.25:861][245]Cmd: QUIT_EDITOR
+[2015.04.25-20.44.26:081][245]LogExit: Preparing to exit.
+[2015.04.25-20.44.26:596][245]LogExit: Editor shut down
+[2015.04.25-20.44.26:597][245]LogExit: Transaction tracking system shut down
+[2015.04.25-20.44.26:599][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FBCB880
+[2015.04.25-20.44.26:599][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025DB62A0
+[2015.04.25-20.44.26:599][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026492DE0
+[2015.04.25-20.44.26:599][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002653FB00
+[2015.04.25-20.44.26:599][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E3E160
+[2015.04.25-20.44.26:644][245]LogExit: Object subsystem successfully closed.
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (175)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module CrashTracker (174)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module SuperSearch (173)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module SceneOutliner (172)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module EditorWidgets (171)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module CollectionManager (170)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module StatsViewer (169)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module FoliageEdit (168)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module LandscapeEditor (167)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module MeshPaint (166)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module ActorPickerMode (165)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module GeometryMode (164)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module TextureAlignMode (163)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module BspMode (162)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module PlacementMode (161)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module AutomationWorker (160)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module CharacterAI (159)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module SmartSnapping (158)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module ViewportSnapping (157)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module LogVisualizer (156)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.04.25-20.44.26:698][245]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (143)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (142)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (141)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (140)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (139)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module InputBindingEditor (138)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (137)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module SettingsEditor (136)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module ProjectLauncher (135)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module SessionFrontend (134)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module ProfilerClient (133)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (132)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module DeviceManager (131)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module AutomationController (130)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module AutomationWindow (129)
+[2015.04.25-20.44.27:523][245]LogModuleManager: Shutting down and abandoning module Layers (128)
+[2015.04.25-20.44.27:524][245]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (127)
+[2015.04.25-20.44.27:524][245]LogModuleManager: Shutting down and abandoning module DetailCustomizations (126)
+[2015.04.25-20.44.27:524][245]LogModuleManager: Shutting down and abandoning module PackagesDialog (125)
+[2015.04.25-20.44.27:524][245]LogModuleManager: Shutting down and abandoning module AssetRegistry (124)
+[2015.04.25-20.44.27:668][245]LogModuleManager: Shutting down and abandoning module Persona (123)
+[2015.04.25-20.44.27:668][245]LogModuleManager: Shutting down and abandoning module SlateReflector (122)
+[2015.04.25-20.44.27:668][245]LogModuleManager: Shutting down and abandoning module LevelEditor (121)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module Kismet (120)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module GraphEditor (119)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module ClassViewer (118)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module Toolbox (117)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module ModuleUI (116)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module MovieSceneTools (115)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module OutputLog (114)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module GammaUI (113)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module Documentation (112)
+[2015.04.25-20.44.27:669][245]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (111)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (110)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module HTTP (109)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module AnalyticsET (108)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module Analytics (107)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module AITestSuite (106)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.04.25-20.44.27:670][245]LogModuleManager: Shutting down and abandoning module ProfilerService (103)
+[2015.04.25-20.44.27:732][245]LogModuleManager: Shutting down and abandoning module TaskGraph (102)
+[2015.04.25-20.44.27:732][245]LogModuleManager: Shutting down and abandoning module SlateRemote (101)
+[2015.04.25-20.44.27:732][245]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (100)
+[2015.04.25-20.44.27:732][245]LogModuleManager: Shutting down and abandoning module LeapMotionController (99)
+[2015.04.25-20.44.27:737][245]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
+[2015.04.25-20.44.27:737][245]LogModuleManager: Shutting down and abandoning module CableComponent (97)
+[2015.04.25-20.44.27:737][245]LogModuleManager: Shutting down and abandoning module MessagingDebugger (96)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (95)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (94)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module PluginsEditor (93)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module EpicSurvey (91)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module GitSourceControl (82)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module BlankPlugin (81)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (80)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (79)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module ContentBrowser (78)
+[2015.04.25-20.44.27:738][245]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2015.04.25-20.44.27:739][245]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2015.04.25-20.44.27:739][245]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2015.04.25-20.44.27:839][245]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2015.04.25-20.44.27:839][245]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (69)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (64)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module MessageLog (63)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module Sequencer (62)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module Slate (58)
+[2015.04.25-20.44.27:841][245]LogModuleManager: Shutting down and abandoning module EditorStyle (57)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module SessionServices (56)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (55)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (54)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module XAudio2 (53)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module Networking (51)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module Core (50)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module KismetCompiler (49)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module PhysXFormats (48)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module MeshUtilities (47)
+[2015.04.25-20.44.27:847][245]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
+[2015.04.25-20.44.27:855][245]LogDerivedDataCache: Shutdown
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.25-20.44.27:855][245]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.25-20.44.27:857][245]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.25-20.44.27:858][245]LogExit: Exiting.
+[2015.04.25-20.44.27:882][245]Log file closed, 04/25/15 22:44:27
