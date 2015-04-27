@@ -1,4 +1,4 @@
-﻿Log file open, 04/26/15 02:27:14
+﻿Log file open, 04/28/15 01:56:14
 LogInit:Display: Running engine for game: IngenuityBasic
 LogInit: Version: 4.7.6-0+++depot+UE4-Releases+4.7
 LogInit: API Version: 0
@@ -9,1182 +9,222 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
 LogInit: Base directory: C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 0
-[2015.04.26-00.27.14:377][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.04.26-00.27.14:427][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.04.26-00.27.14:442][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.04.26-00.27.14:451][  0]LogInit: Object subsystem initialized
-[2015.04.26-00.27.14:453][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.04.26-00.27.14:453][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.26-00.27.14:453][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.04.26-00.27.14:453][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.26-00.27.14:453][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.04.26-00.27.14:453][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.26-00.27.14:453][  0]LogInit: Selected Device Profile: [Windows]
-[2015.04.26-00.27.14:453][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.04.26-00.27.14:463][  0]LogInit: Computer: LOKI
-[2015.04.26-00.27.14:463][  0]LogInit: User: Scardan
-[2015.04.26-00.27.14:463][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.04.26-00.27.14:463][  0]LogInit: High frequency timer resolution =2.435800 MHz
-[2015.04.26-00.27.14:463][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
-[2015.04.26-00.27.14:463][  0]LogMemory: Platform Memory Stats for Windows
-[2015.04.26-00.27.14:463][  0]LogMemory: Process Physical Memory: 48.09 MB used, 48.09 MB peak
-[2015.04.26-00.27.14:463][  0]LogMemory: Process Virtual Memory: 28.35 MB used, 28.36 MB peak
-[2015.04.26-00.27.14:463][  0]LogMemory: Physical Memory: 4016.91 MB used, 8108.36 MB total
-[2015.04.26-00.27.14:463][  0]LogMemory: Virtual Memory: 280.24 MB used, 8388608.00 MB total
-[2015.04.26-00.27.14:491][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.04.26-00.27.14:491][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2015.04.26-00.27.14:491][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.04.26-00.27.14:498][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
-[2015.04.26-00.27.14:508][  0]LogD3D11RHI: Async texture creation enabled
-[2015.04.26-00.27.15:070][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.04.26-00.27.15:151][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.04.27-23.56.14:521][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.27-23.56.14:573][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.27-23.56.14:585][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.27-23.56.14:594][  0]LogInit: Object subsystem initialized
+[2015.04.27-23.56.14:596][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.27-23.56.14:596][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.27-23.56.14:596][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.27-23.56.14:596][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.27-23.56.14:596][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.27-23.56.14:596][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Scardan/Documents/Ingenuity/IngenuityBasic/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.27-23.56.14:597][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.27-23.56.14:597][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.27-23.56.14:604][  0]LogInit: Computer: LOKI
+[2015.04.27-23.56.14:604][  0]LogInit: User: Scardan
+[2015.04.27-23.56.14:604][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.27-23.56.14:604][  0]LogInit: High frequency timer resolution =2.435800 MHz
+[2015.04.27-23.56.14:604][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.27-23.56.14:604][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.27-23.56.14:604][  0]LogMemory: Process Physical Memory: 48.00 MB used, 48.00 MB peak
+[2015.04.27-23.56.14:604][  0]LogMemory: Process Virtual Memory: 28.33 MB used, 28.34 MB peak
+[2015.04.27-23.56.14:604][  0]LogMemory: Physical Memory: 4418.76 MB used, 8108.36 MB total
+[2015.04.27-23.56.14:604][  0]LogMemory: Virtual Memory: 280.24 MB used, 8388608.00 MB total
+[2015.04.27-23.56.14:636][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.27-23.56.14:636][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.04.27-23.56.14:636][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.27-23.56.14:641][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.04.27-23.56.14:650][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.27-23.56.15:193][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.27-23.56.15:280][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.04.26-00.27.15:151][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.04.27-23.56.15:280][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Users/Scardan/Desktop/UnrealEngine-4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.04.26-00.27.15:236][  0]LogContentStreaming: Texture pool size is 200.000000MB
-[2015.04.26-00.27.17:227][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.26-00.27.17:699][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.26-00.27.17:750][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.04.26-00.27.17:791][  0]LogDerivedDataCache: Loaded boot cache 0.04s 40MB ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
-[2015.04.26-00.27.17:791][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc
-[2015.04.26-00.27.17:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.04.26-00.27.17:791][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.04.26-00.27.17:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.04.26-00.27.17:791][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2015.04.26-00.27.17:804][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2015.04.26-00.27.17:804][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2015.04.26-00.27.17:804][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2015.04.26-00.27.18:069][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.04.26-00.27.18:069][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.04.26-00.27.18:407][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.04.26-00.27.18:799][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../Documents/Ingenuity/IngenuityBasic/Content/Movies/Default_Startup.mp4
-[2015.04.26-00.27.18:931][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.04.26-00.27.18:931][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.04.26-00.27.18:955][  0]SourceControl: Info Source control is disabled
-[2015.04.26-00.27.18:955][  0]SourceControl: Info Source control is disabled
-[2015.04.26-00.27.18:955][  0]SourceControl: Info Source control is disabled
-[2015.04.26-00.27.18:963][  0]SourceControl: Info Source control is disabled
-[2015.04.26-00.27.19:059][  0]LogObj: 24141 objects as part of root set at end of initial load.
-[2015.04.26-00.27.19:059][  0]LogUObjectAllocator: 5034576 out of 0 bytes used by permanent object pool.
-[2015.04.26-00.27.19:126][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
-[2015.04.26-00.27.19:127][  0]LogEngine: Initializing Engine...
-[2015.04.26-00.27.22:302][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.04.26-00.27.22:314][  0]LogInit: FAudioDevice initialized.
-[2015.04.26-00.27.22:318][  0]LogInit: Texture streaming: Enabled
-[2015.04.26-00.27.22:384][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.04.26-00.27.22:384][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
-[2015.04.26-00.27.22:384][  0]LogAnalytics: SetUserId 92f236fd4abf3ad736ca67a71ac17b00|82d0a04204254179a8e7c8a211110ec7|b3756103-6e77-4ae0-841f-8cf86ad08b6c
-[2015.04.26-00.27.22:384][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
-[2015.04.26-00.27.22:441][  0]LogNet: Browse: /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel?Name=Player
-[2015.04.26-00.27.22:441][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel?Name=Player
-[2015.04.26-00.27.22:451][  0]LogMemory: Platform Memory Stats for Windows
-[2015.04.26-00.27.22:451][  0]LogMemory: Process Physical Memory: 278.04 MB used, 279.54 MB peak
-[2015.04.26-00.27.22:451][  0]LogMemory: Process Virtual Memory: 252.23 MB used, 259.31 MB peak
-[2015.04.26-00.27.22:451][  0]LogMemory: Physical Memory: 4246.42 MB used, 8108.36 MB total
-[2015.04.26-00.27.22:451][  0]LogMemory: Virtual Memory: 749.80 MB used, 8388608.00 MB total
-[2015.04.26-00.27.22:451][  0]LogMemory: 
-[2015.04.26-00.27.22:451][  0]Allocator Stats for TBB: (not implemented)
-[2015.04.26-00.27.22:543][  0]LogAssetRegistry: FAssetRegistry took 0.0000 seconds to start up
-[2015.04.26-00.27.23:164][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
-[2015.04.26-00.27.23:165][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold for platform PCD3D_SM5, Default Material will be used in game.
-[2015.04.26-00.27.23:165][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/StarterContent/Textures/T_Metal_Gold_D.T_Metal_Gold_D
-[2015.04.26-00.27.23:192][  0]LogWorld: Game class is 'IngenuityGameMode_C'
-[2015.04.26-00.27.23:224][  0]LogAIModule: Creating AISystem for world HardLevel
-[2015.04.26-00.27.23:228][  0]LogWorld: Bringing World /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel up for play (max tick rate 0) at 2015.04.26-02.27.23
-[2015.04.26-00.27.23:229][  0]LogWorld: Bringing up level for play took: 0.004286
-[2015.04.26-00.27.23:242][  0]LogInit:Display: Game Engine Initialized.
-[2015.04.26-00.27.23:468][  0]LogLoad: Full Startup: 10.83 seconds (BP compile: 0.26 seconds)
-[2015.04.26-00.27.23:586][  2]LogRenderer:Warning: Reallocating scene render targets to support 640x360 (Frame:2).
-[2015.04.26-00.27.27:197][213]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.27.27:197][213]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.27.28:090][268]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.27.28:090][268]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.27.28:525][295]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.27.28:525][295]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.27.28:736][308]LogCharacterMovement: Mobs_C_7 is stuck and failed to move!
-[2015.04.26-00.27.28:752][309]LogCharacterMovement: Mobs_C_7 is stuck and failed to move!
-[2015.04.26-00.27.28:945][321]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.27.28:945][321]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.27.29:606][362]LogCharacterMovement: Mobs_C_9 is stuck and failed to move!
-[2015.04.26-00.27.29:623][363]LogCharacterMovement: Mobs_C_9 is stuck and failed to move!
-[2015.04.26-00.27.32:511][542]LogBlueprintUserMessages: Trap_C_0
-[2015.04.26-00.27.32:511][542]LogBlueprintUserMessages: Trap_C_0
-[2015.04.26-00.27.32:511][542]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.32:688][553]LogBlueprintUserMessages: Trap_C_0
-[2015.04.26-00.27.32:688][553]LogBlueprintUserMessages: Trap_C_1
-[2015.04.26-00.27.32:689][553]LogBlueprintUserMessages: Trap_C_1
-[2015.04.26-00.27.32:689][553]LogBlueprintUserMessages: Trap_C_1
-[2015.04.26-00.27.32:689][553]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.32:689][553]LogBlueprintUserMessages: Trap_C_0
-[2015.04.26-00.27.32:689][553]LogBlueprintUserMessages: Trap_C_1
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: Trap_C_1
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: Trap_C_1
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:172][583]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: Trap_C_3
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: Trap_C_3
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: Trap_C_3
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:398][597]LogBlueprintUserMessages: Trap_C_3
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_3
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_2
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_3
-[2015.04.26-00.27.33:592][609]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: Trap_C_5
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: Trap_C_5
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: Trap_C_5
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: Trap_C_4
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: Trap_C_5
-[2015.04.26-00.27.34:092][640]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.34:995][696]LogBlueprintUserMessages: Trap_C_6
-[2015.04.26-00.27.34:995][696]LogBlueprintUserMessages: Trap_C_6
-[2015.04.26-00.27.34:995][696]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.35:220][710]LogBlueprintUserMessages: Trap_C_6
-[2015.04.26-00.27.35:220][710]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:220][710]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:220][710]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:221][710]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.35:221][710]LogBlueprintUserMessages: Trap_C_6
-[2015.04.26-00.27.35:221][710]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_6
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_6
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:430][723]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_7
-[2015.04.26-00.27.35:672][738]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:849][749]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:849][749]LogBlueprintUserMessages: Trap_C_10
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_10
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_10
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_10
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_8
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_10
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_9
-[2015.04.26-00.27.35:850][749]LogBlueprintUserMessages: Trap_C_10
-[2015.04.26-00.27.37:478][850]LogBlueprintUserMessages: Trap_C_11
-[2015.04.26-00.27.37:478][850]LogBlueprintUserMessages: Trap_C_11
-[2015.04.26-00.27.37:478][850]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: Trap_C_11
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: Trap_C_12
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: Trap_C_12
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: Trap_C_12
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: Trap_C_11
-[2015.04.26-00.27.37:672][862]LogBlueprintUserMessages: Trap_C_12
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_12
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_13
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_11
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_13
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_13
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_13
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_12
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_13
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_11
-[2015.04.26-00.27.37:946][879]LogBlueprintUserMessages: Trap_C_13
-[2015.04.26-00.27.40:140][ 15]LogBlueprintUserMessages: Trap_C_14
-[2015.04.26-00.27.40:140][ 15]LogBlueprintUserMessages: Trap_C_14
-[2015.04.26-00.27.40:140][ 15]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.41:204][ 81]LogBlueprintUserMessages: Mobs_C_7
-[2015.04.26-00.27.41:457][ 94]LogBlueprintUserMessages: Mobs_C_4
-[2015.04.26-00.27.41:457][ 94]LogBlueprintUserMessages: reload
-[2015.04.26-00.27.41:764][113]LogBlueprintUserMessages: Mobs_C_4
-[2015.04.26-00.27.47:458][466]LogBlueprintUserMessages: Trap_C_15
-[2015.04.26-00.27.47:458][466]LogBlueprintUserMessages: Trap_C_15
-[2015.04.26-00.27.47:458][466]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: Trap_C_15
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: Trap_C_16
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: Trap_C_16
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: Trap_C_16
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: Trap_C_15
-[2015.04.26-00.27.48:878][554]LogBlueprintUserMessages: Trap_C_16
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: Trap_C_16
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: Trap_C_17
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: Trap_C_17
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: Trap_C_17
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: Trap_C_16
-[2015.04.26-00.27.49:184][573]LogBlueprintUserMessages: Trap_C_17
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: Trap_C_17
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: Trap_C_17
-[2015.04.26-00.27.49:588][598]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: Trap_C_19
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: Trap_C_19
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: Trap_C_19
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.49:829][613]LogBlueprintUserMessages: Trap_C_19
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_19
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_19
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_18
-[2015.04.26-00.27.50:023][625]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: Trap_C_21
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: Trap_C_21
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: Trap_C_21
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: Trap_C_20
-[2015.04.26-00.27.50:426][650]LogBlueprintUserMessages: Trap_C_21
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: Trap_C_21
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: Trap_C_22
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: Trap_C_22
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: Trap_C_22
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: Trap_C_21
-[2015.04.26-00.27.50:620][662]LogBlueprintUserMessages: Trap_C_22
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: Trap_C_22
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: Trap_C_23
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: Trap_C_23
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: Trap_C_23
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: IngenuityCharacter_C_0
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: Trap_C_22
-[2015.04.26-00.27.50:944][682]LogBlueprintUserMessages: Trap_C_23
-[2015.04.26-00.27.51:781][734]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.27.51:781][734]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.27.57:137][ 66]LogCharacterMovement: Mobs_C_26 is stuck and failed to move!
-[2015.04.26-00.27.57:153][ 67]LogCharacterMovement: Mobs_C_26 is stuck and failed to move!
-[2015.04.26-00.27.57:216][ 71]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:233][ 72]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:249][ 73]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:266][ 74]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:281][ 75]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:297][ 76]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:313][ 77]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:329][ 78]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:346][ 79]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:362][ 80]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:378][ 81]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:394][ 82]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:410][ 83]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:426][ 84]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:443][ 85]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:459][ 86]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:475][ 87]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:491][ 88]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:507][ 89]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:523][ 90]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:539][ 91]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:555][ 92]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:571][ 93]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:588][ 94]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:604][ 95]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:620][ 96]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:636][ 97]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:652][ 98]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:668][ 99]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:685][100]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:700][101]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:716][102]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:733][103]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:749][104]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:765][105]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:781][106]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:797][107]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:813][108]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:829][109]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:846][110]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:862][111]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:878][112]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:894][113]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:911][114]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:926][115]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:942][116]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:958][117]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:975][118]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.57:991][119]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:007][120]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:023][121]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:039][122]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:055][123]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:071][124]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:087][125]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:104][126]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:120][127]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:136][128]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:152][129]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:168][130]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:185][131]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:201][132]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:217][133]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:233][134]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:249][135]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:266][136]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:281][137]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:297][138]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:313][139]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:329][140]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:346][141]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:362][142]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:378][143]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:394][144]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:410][145]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:426][146]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:442][147]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:459][148]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:475][149]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:491][150]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:508][151]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:523][152]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:524][152]LogCharacterMovement: Mobs_C_31 is stuck and failed to move!
-[2015.04.26-00.27.58:539][153]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:540][153]LogCharacterMovement: Mobs_C_31 is stuck and failed to move!
-[2015.04.26-00.27.58:555][154]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:571][155]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:588][156]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:604][157]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:620][158]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:636][159]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:652][160]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:668][161]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:685][162]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:701][163]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:717][164]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:733][165]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:749][166]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:765][167]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:781][168]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:797][169]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:814][170]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:830][171]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:846][172]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:862][173]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:878][174]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:894][175]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:910][176]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:927][177]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:943][178]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:959][179]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:975][180]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.58:991][181]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:007][182]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:023][183]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:039][184]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:055][185]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:072][186]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:088][187]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:104][188]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:120][189]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:137][190]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:152][191]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:168][192]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:185][193]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:201][194]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:217][195]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:234][196]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:250][197]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:266][198]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:281][199]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:298][200]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:314][201]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:329][202]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.27.59:329][202]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.27.59:330][202]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:346][203]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:362][204]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:378][205]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:394][206]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:410][207]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:426][208]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:442][209]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:459][210]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:475][211]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:491][212]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:507][213]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:523][214]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:539][215]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:555][216]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:571][217]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:588][218]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:604][219]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:620][220]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:636][221]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:652][222]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:668][223]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:684][224]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:700][225]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:717][226]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:733][227]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:749][228]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:765][229]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:781][230]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:797][231]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:813][232]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:829][233]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:846][234]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:862][235]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:878][236]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:894][237]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:910][238]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:927][239]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:943][240]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:959][241]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:975][242]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.27.59:991][243]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:007][244]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:023][245]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:040][246]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:056][247]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:072][248]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:088][249]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:104][250]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:120][251]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:136][252]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:153][253]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:168][254]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:184][255]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:200][256]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:217][257]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:233][258]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:249][259]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:266][260]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:282][261]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:297][262]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:313][263]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:330][264]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:346][265]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:362][266]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:377][267]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.00:377][267]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.00:378][267]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:394][268]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:410][269]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:426][270]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:442][271]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:459][272]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:475][273]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:491][274]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:507][275]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:523][276]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:539][277]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:555][278]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:571][279]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:588][280]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:604][281]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:620][282]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:636][283]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:652][284]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:668][285]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:684][286]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:701][287]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:717][288]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:733][289]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:749][290]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:765][291]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:782][292]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:797][293]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:814][294]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:830][295]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:846][296]LogBlueprintUserMessages: Mobs_C_11
-[2015.04.26-00.28.00:846][296]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:862][297]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:878][298]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:894][299]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:910][300]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:927][301]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:943][302]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:959][303]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:975][304]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.00:991][305]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:007][306]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:023][307]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:039][308]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:055][309]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:071][310]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:088][311]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:104][312]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:120][313]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:136][314]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:152][315]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:168][316]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:184][317]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:200][318]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:217][319]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:233][320]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:249][321]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:266][322]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:282][323]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:298][324]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:314][325]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:330][326]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:346][327]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:362][328]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:378][329]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:394][330]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:410][331]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:426][332]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:442][333]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:459][334]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:475][335]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:491][336]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:507][337]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:523][338]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:539][339]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:555][340]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:571][341]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:588][342]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:604][343]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:620][344]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:636][345]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:652][346]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:668][347]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:684][348]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:701][349]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:717][350]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:733][351]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:749][352]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:765][353]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:781][354]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:797][355]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:814][356]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:830][357]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:846][358]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:862][359]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:878][360]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:895][361]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:910][362]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:926][363]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:942][364]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:959][365]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:975][366]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.01:991][367]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:007][368]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:023][369]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:039][370]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:055][371]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:072][372]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:088][373]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:104][374]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:120][375]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:136][376]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:152][377]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:168][378]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:184][379]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:200][380]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:217][381]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:233][382]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:249][383]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:266][384]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:281][385]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:297][386]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:314][387]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:330][388]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:346][389]LogCharacterMovement: Mobs_C_14 is stuck and failed to move!
-[2015.04.26-00.28.02:474][397]LogBlueprintUserMessages: Mobs_C_12
-[2015.04.26-00.28.07:137][686]LogBlueprintUserMessages: Mobs_C_13
-[2015.04.26-00.28.07:556][712]LogBlueprintUserMessages: Mobs_C_15
-[2015.04.26-00.28.07:556][712]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.07:621][716]LogBlueprintUserMessages: Mobs_C_15
-[2015.04.26-00.28.08:267][756]LogBlueprintUserMessages: Mobs_C_16
-[2015.04.26-00.28.08:267][756]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.08:314][759]LogBlueprintUserMessages: Mobs_C_16
-[2015.04.26-00.28.08:314][759]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.08:347][761]LogBlueprintUserMessages: Mobs_C_16
-[2015.04.26-00.28.08:992][801]LogBlueprintUserMessages: Mobs_C_18
-[2015.04.26-00.28.08:992][801]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.09:041][804]LogBlueprintUserMessages: Mobs_C_18
-[2015.04.26-00.28.09:041][804]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.09:105][808]LogBlueprintUserMessages: Mobs_C_18
-[2015.04.26-00.28.09:105][808]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.09:669][843]LogBlueprintUserMessages: Mobs_C_20
-[2015.04.26-00.28.09:669][843]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.09:718][846]LogBlueprintUserMessages: Mobs_C_20
-[2015.04.26-00.28.09:718][846]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.09:766][849]LogBlueprintUserMessages: Mobs_C_20
-[2015.04.26-00.28.09:766][849]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.10:863][917]LogBlueprintUserMessages: Mobs_C_29
-[2015.04.26-00.28.11:443][953]LogBlueprintUserMessages: Mobs_C_22
-[2015.04.26-00.28.11:830][977]LogBlueprintUserMessages: Mobs_C_19
-[2015.04.26-00.28.12:460][ 16]LogBlueprintUserMessages: Mobs_C_24
-[2015.04.26-00.28.12:460][ 16]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.12:508][ 19]LogBlueprintUserMessages: Mobs_C_24
-[2015.04.26-00.28.12:976][ 48]LogBlueprintUserMessages: Mobs_C_21
-[2015.04.26-00.28.12:976][ 48]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.12:992][ 49]LogBlueprintUserMessages: Mobs_C_21
-[2015.04.26-00.28.13:653][ 90]LogBlueprintUserMessages: Mobs_C_27
-[2015.04.26-00.28.13:653][ 90]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.13:702][ 93]LogBlueprintUserMessages: Mobs_C_27
-[2015.04.26-00.28.13:702][ 93]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.13:750][ 96]LogBlueprintUserMessages: Mobs_C_27
-[2015.04.26-00.28.14:653][152]LogBlueprintUserMessages: Mobs_C_32
-[2015.04.26-00.28.14:879][166]LogBlueprintUserMessages: Mobs_C_23
-[2015.04.26-00.28.15:895][229]LogBlueprintUserMessages: Mobs_C_34
-[2015.04.26-00.28.15:895][229]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.15:911][230]LogBlueprintUserMessages: Mobs_C_34
-[2015.04.26-00.28.16:072][240]LogBlueprintUserMessages: Mobs_C_17
-[2015.04.26-00.28.16:072][240]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.16:121][243]LogBlueprintUserMessages: Mobs_C_17
-[2015.04.26-00.28.16:572][271]LogBlueprintUserMessages: Mobs_C_25
-[2015.04.26-00.28.16:572][271]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.16:621][274]LogBlueprintUserMessages: Mobs_C_25
-[2015.04.26-00.28.16:621][274]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:218][311]LogBlueprintUserMessages: Mobs_C_36
-[2015.04.26-00.28.17:218][311]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:267][314]LogBlueprintUserMessages: Mobs_C_36
-[2015.04.26-00.28.17:267][314]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:315][317]LogBlueprintUserMessages: Mobs_C_36
-[2015.04.26-00.28.17:540][331]LogBlueprintUserMessages: Mobs_C_38
-[2015.04.26-00.28.17:540][331]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:589][334]LogBlueprintUserMessages: Mobs_C_38
-[2015.04.26-00.28.17:589][334]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:653][338]LogBlueprintUserMessages: Mobs_C_38
-[2015.04.26-00.28.17:653][338]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:750][344]LogBlueprintUserMessages: Mobs_C_26
-[2015.04.26-00.28.17:750][344]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:798][347]LogBlueprintUserMessages: Mobs_C_26
-[2015.04.26-00.28.17:798][347]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.17:911][354]LogBlueprintUserMessages: Mobs_C_38
-[2015.04.26-00.28.17:911][354]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.18:267][376]LogBlueprintUserMessages: Mobs_C_40
-[2015.04.26-00.28.18:298][378]LogBlueprintUserMessages: Mobs_C_26
-[2015.04.26-00.28.18:895][415]LogBlueprintUserMessages: Mobs_C_47
-[2015.04.26-00.28.19:137][430]LogBlueprintUserMessages: Mobs_C_28
-[2015.04.26-00.28.19:137][430]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.19:185][433]LogBlueprintUserMessages: Mobs_C_28
-[2015.04.26-00.28.20:008][484]LogBlueprintUserMessages: Mobs_C_43
-[2015.04.26-00.28.20:008][484]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.20:056][487]LogBlueprintUserMessages: Mobs_C_43
-[2015.04.26-00.28.20:475][513]LogBlueprintUserMessages: Mobs_C_31
-[2015.04.26-00.28.20:476][513]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.20:524][516]LogBlueprintUserMessages: Mobs_C_31
-[2015.04.26-00.28.20:524][516]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.21:444][573]LogBlueprintUserMessages: Mobs_C_30
-[2015.04.26-00.28.22:024][609]LogBlueprintUserMessages: Mobs_C_45
-[2015.04.26-00.28.22:912][664]LogBlueprintUserMessages: Mobs_C_35
-[2015.04.26-00.28.22:912][664]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.22:960][667]LogBlueprintUserMessages: Mobs_C_35
-[2015.04.26-00.28.23:930][726]LogBlueprintUserMessages: Mobs_C_39
-[2015.04.26-00.28.23:930][726]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.23:978][729]LogBlueprintUserMessages: Mobs_C_39
-[2015.04.26-00.28.23:978][729]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.24:332][751]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:348][752]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:365][753]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:381][754]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:397][755]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:413][756]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:429][757]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:445][758]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:461][759]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:477][760]LogCharacterMovement: Mobs_C_48 is stuck and failed to move!
-[2015.04.26-00.28.24:559][765]LogBlueprintUserMessages: Mobs_C_37
-[2015.04.26-00.28.24:881][785]LogCharacterMovement: Mobs_C_51 is stuck and failed to move!
-[2015.04.26-00.28.25:236][807]LogCharacterMovement: Mobs_C_52 is stuck and failed to move!
-[2015.04.26-00.28.25:252][808]LogCharacterMovement: Mobs_C_52 is stuck and failed to move!
-[2015.04.26-00.28.25:493][823]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.25:493][823]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.26:009][855]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.26:009][855]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.26:332][875]LogBlueprintUserMessages: Mobs_C_33
-[2015.04.26-00.28.26:333][875]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.26:365][877]LogBlueprintUserMessages: Mobs_C_33
-[2015.04.26-00.28.26:445][882]LogCharacterMovement: Mobs_C_55 is stuck and failed to move!
-[2015.04.26-00.28.26:462][883]LogCharacterMovement: Mobs_C_55 is stuck and failed to move!
-[2015.04.26-00.28.26:687][897]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.26:687][897]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.26:799][904]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.26:799][904]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.27:543][950]LogBlueprintUserMessages: Mobs_C_41
-[2015.04.26-00.28.27:543][950]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.27:592][953]LogBlueprintUserMessages: Mobs_C_41
-[2015.04.26-00.28.27:592][953]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.28:123][986]LogCharacterMovement: Mobs_C_61 is stuck and failed to move!
-[2015.04.26-00.28.28:139][987]LogCharacterMovement: Mobs_C_61 is stuck and failed to move!
-[2015.04.26-00.28.28:381][  2]LogCharacterMovement: Mobs_C_62 is stuck and failed to move!
-[2015.04.26-00.28.28:462][  7]LogBlueprintUserMessages: Mobs_C_46
-[2015.04.26-00.28.28:493][  9]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.28:493][  9]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.29:154][ 50]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.29:154][ 50]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.29:736][ 86]LogCharacterMovement: Mobs_C_67 is stuck and failed to move!
-[2015.04.26-00.28.29:753][ 87]LogCharacterMovement: Mobs_C_67 is stuck and failed to move!
-[2015.04.26-00.28.29:994][102]LogCharacterMovement: Mobs_C_68 is stuck and failed to move!
-[2015.04.26-00.28.30:010][103]LogCharacterMovement: Mobs_C_68 is stuck and failed to move!
-[2015.04.26-00.28.30:139][111]LogCharacterMovement: Mobs_C_69 is stuck and failed to move!
-[2015.04.26-00.28.30:155][112]LogCharacterMovement: Mobs_C_69 is stuck and failed to move!
-[2015.04.26-00.28.30:301][121]LogCharacterMovement: Mobs_C_70 is stuck and failed to move!
-[2015.04.26-00.28.30:317][122]LogCharacterMovement: Mobs_C_70 is stuck and failed to move!
-[2015.04.26-00.28.30:364][125]LogBlueprintUserMessages: Mobs_C_42
-[2015.04.26-00.28.30:364][125]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.30:413][128]LogBlueprintUserMessages: Mobs_C_42
-[2015.04.26-00.28.30:591][139]LogCharacterMovement: Mobs_C_71 is stuck and failed to move!
-[2015.04.26-00.28.31:171][175]LogCharacterMovement: Mobs_C_74 is stuck and failed to move!
-[2015.04.26-00.28.32:026][228]LogBlueprintUserMessages: Mobs_C_44
-[2015.04.26-00.28.33:140][297]LogCharacterMovement: Mobs_C_80 is stuck and failed to move!
-[2015.04.26-00.28.33:156][298]LogCharacterMovement: Mobs_C_80 is stuck and failed to move!
-[2015.04.26-00.28.33:558][323]LogBlueprintUserMessages: Mobs_C_48
-[2015.04.26-00.28.33:558][323]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.33:606][326]LogBlueprintUserMessages: Mobs_C_48
-[2015.04.26-00.28.33:751][335]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.33:751][335]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.33:897][344]LogCharacterMovement: Mobs_C_83 is stuck and failed to move!
-[2015.04.26-00.28.33:913][345]LogCharacterMovement: Mobs_C_83 is stuck and failed to move!
-[2015.04.26-00.28.34:106][357]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.34:106][357]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.34:235][365]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.34:235][365]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.35:058][416]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.35:058][416]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.35:154][422]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.35:154][422]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.36:461][503]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.36:462][503]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.36:657][515]LogCharacterMovement: Mobs_C_89 is stuck and failed to move!
-[2015.04.26-00.28.36:673][516]LogCharacterMovement: Mobs_C_89 is stuck and failed to move!
-[2015.04.26-00.28.37:057][540]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:03F0
-[2015.04.26-00.28.37:058][540]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue2'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:0431
-[2015.04.26-00.28.37:254][552]LogCharacterMovement: Mobs_C_91 is stuck and failed to move!
-[2015.04.26-00.28.38:092][604]LogCharacterMovement: Mobs_C_94 is stuck and failed to move!
-[2015.04.26-00.28.38:109][605]LogCharacterMovement: Mobs_C_94 is stuck and failed to move!
-[2015.04.26-00.28.38:287][616]LogCharacterMovement: Mobs_C_95 is stuck and failed to move!
-[2015.04.26-00.28.38:302][617]LogCharacterMovement: Mobs_C_95 is stuck and failed to move!
-[2015.04.26-00.28.38:993][660]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.38:993][660]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.40:271][739]LogBlueprintUserMessages: Mobs_C_49
-[2015.04.26-00.28.41:271][801]LogBlueprintUserMessages: Mobs_C_63
-[2015.04.26-00.28.41:673][826]LogBlueprintUserMessages: Mobs_C_53
-[2015.04.26-00.28.41:674][826]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.41:721][829]LogBlueprintUserMessages: Mobs_C_53
-[2015.04.26-00.28.42:463][875]LogBlueprintUserMessages: Mobs_C_56
-[2015.04.26-00.28.42:463][875]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.42:512][878]LogBlueprintUserMessages: Mobs_C_56
-[2015.04.26-00.28.42:512][878]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.42:593][883]LogBlueprintUserMessages: Mobs_C_55
-[2015.04.26-00.28.42:593][883]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.42:609][884]LogBlueprintUserMessages: Mobs_C_56
-[2015.04.26-00.28.42:995][908]LogBlueprintUserMessages: Mobs_C_57
-[2015.04.26-00.28.42:995][908]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.43:059][912]LogBlueprintUserMessages: Mobs_C_57
-[2015.04.26-00.28.43:060][912]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.43:108][915]LogBlueprintUserMessages: Mobs_C_57
-[2015.04.26-00.28.43:108][915]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.43:174][919]LogBlueprintUserMessages: Mobs_C_55
-[2015.04.26-00.28.43:317][928]LogBlueprintUserMessages: Mobs_C_72
-[2015.04.26-00.28.43:317][928]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.43:350][930]LogBlueprintUserMessages: Mobs_C_72
-[2015.04.26-00.28.43:350][930]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.43:512][940]LogBlueprintUserMessages: Mobs_C_58
-[2015.04.26-00.28.43:754][955]LogBlueprintUserMessages: Mobs_C_50
-[2015.04.26-00.28.44:206][983]LogBlueprintUserMessages: Mobs_C_51
-[2015.04.26-00.28.44:206][983]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.44:254][986]LogBlueprintUserMessages: Mobs_C_51
-[2015.04.26-00.28.44:334][991]LogBlueprintUserMessages: Mobs_C_68
-[2015.04.26-00.28.44:609][  8]LogBlueprintUserMessages: Mobs_C_60
-[2015.04.26-00.28.44:609][  8]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.44:673][ 12]LogBlueprintUserMessages: Mobs_C_60
-[2015.04.26-00.28.44:673][ 12]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.44:914][ 27]LogBlueprintUserMessages: Mobs_C_60
-[2015.04.26-00.28.44:914][ 27]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.45:077][ 37]LogBlueprintUserMessages: Mobs_C_78
-[2015.04.26-00.28.45:140][ 41]LogBlueprintUserMessages: Mobs_C_62
-[2015.04.26-00.28.45:140][ 41]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.45:189][ 44]LogBlueprintUserMessages: Mobs_C_62
-[2015.04.26-00.28.45:994][ 94]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.45:994][ 94]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.46:335][115]LogBlueprintUserMessages: Mobs_C_61
-[2015.04.26-00.28.46:335][115]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.46:382][118]LogBlueprintUserMessages: Mobs_C_74
-[2015.04.26-00.28.46:382][118]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.46:447][122]LogBlueprintUserMessages: Mobs_C_66
-[2015.04.26-00.28.46:447][122]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.46:479][124]LogBlueprintUserMessages: Mobs_C_66
-[2015.04.26-00.28.46:479][124]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.46:544][128]LogBlueprintUserMessages: Mobs_C_66
-[2015.04.26-00.28.46:867][148]LogBlueprintUserMessages: Mobs_C_52
-[2015.04.26-00.28.47:270][173]LogBlueprintUserMessages: Mobs_C_81
-[2015.04.26-00.28.47:271][173]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.47:962][216]LogBlueprintUserMessages: Mobs_C_72
-[2015.04.26-00.28.48:512][250]LogBlueprintUserMessages: Mobs_C_70
-[2015.04.26-00.28.48:512][250]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.48:577][254]LogBlueprintUserMessages: Mobs_C_70
-[2015.04.26-00.28.48:933][276]LogBlueprintUserMessages: Mobs_C_76
-[2015.04.26-00.28.48:933][276]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.48:996][280]LogBlueprintUserMessages: Mobs_C_76
-[2015.04.26-00.28.48:996][280]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.49:238][295]LogBlueprintUserMessages: Mobs_C_76
-[2015.04.26-00.28.49:238][295]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.49:462][309]LogBlueprintUserMessages: Mobs_C_74
-[2015.04.26-00.28.49:462][309]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.49:511][312]LogBlueprintUserMessages: Mobs_C_74
-[2015.04.26-00.28.49:511][312]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.49:559][315]LogBlueprintUserMessages: Mobs_C_74
-[2015.04.26-00.28.49:721][325]LogBlueprintUserMessages: Mobs_C_54
-[2015.04.26-00.28.49:721][325]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.49:770][328]LogBlueprintUserMessages: Mobs_C_54
-[2015.04.26-00.28.49:802][330]LogBlueprintUserMessages: Mobs_C_67
-[2015.04.26-00.28.49:818][331]LogBlueprintUserMessages: Mobs_C_65
-[2015.04.26-00.28.50:123][350]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05BD
-[2015.04.26-00.28.50:123][350]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
-	HardLevel_C /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel:PersistentLevel.HardLevel_C_1
-	Function /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel_C:ExecuteUbergraph_HardLevel:05FE
-[2015.04.26-00.28.50:222][356]LogBlueprintUserMessages: Mobs_C_92
-[2015.04.26-00.28.50:222][356]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.50:253][358]LogBlueprintUserMessages: Mobs_C_81
-[2015.04.26-00.28.50:253][358]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.50:301][361]LogBlueprintUserMessages: Mobs_C_81
-[2015.04.26-00.28.50:301][361]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.50:366][365]LogBlueprintUserMessages: Mobs_C_81
-[2015.04.26-00.28.50:366][365]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.50:416][368]LogBlueprintUserMessages: Mobs_C_92
-[2015.04.26-00.28.50:559][377]LogBlueprintUserMessages: Mobs_C_61
-[2015.04.26-00.28.50:609][380]LogBlueprintUserMessages: Mobs_C_94
-[2015.04.26-00.28.50:609][380]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.51:286][422]LogBlueprintUserMessages: Mobs_C_86
-[2015.04.26-00.28.51:463][433]LogBlueprintUserMessages: Mobs_C_59
-[2015.04.26-00.28.51:463][433]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.51:511][436]LogBlueprintUserMessages: Mobs_C_59
-[2015.04.26-00.28.51:511][436]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.51:769][452]LogBlueprintUserMessages: Mobs_C_73
-[2015.04.26-00.28.51:769][452]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.51:932][462]LogBlueprintUserMessages: Mobs_C_59
-[2015.04.26-00.28.51:932][462]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.52:027][468]LogBlueprintUserMessages: Mobs_C_73
-[2015.04.26-00.28.52:027][468]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.52:673][508]LogBlueprintUserMessages: Mobs_C_84
-[2015.04.26-00.28.52:673][508]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.52:722][511]LogBlueprintUserMessages: Mobs_C_84
-[2015.04.26-00.28.53:512][560]LogBlueprintUserMessages: Mobs_C_88
-[2015.04.26-00.28.53:512][560]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.53:561][563]LogBlueprintUserMessages: Mobs_C_88
-[2015.04.26-00.28.53:561][563]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.53:609][566]LogBlueprintUserMessages: Mobs_C_88
-[2015.04.26-00.28.53:641][568]LogBlueprintUserMessages: Mobs_C_79
-[2015.04.26-00.28.54:012][591]LogBlueprintUserMessages: Mobs_C_89
-[2015.04.26-00.28.54:012][591]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.54:060][594]LogBlueprintUserMessages: Mobs_C_89
-[2015.04.26-00.28.54:060][594]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.54:108][597]LogBlueprintUserMessages: Mobs_C_89
-[2015.04.26-00.28.54:109][597]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.54:607][628]LogBlueprintUserMessages: Mobs_C_64
-[2015.04.26-00.28.55:204][665]LogBlueprintUserMessages: Mobs_C_73
-[2015.04.26-00.28.55:204][665]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.55:252][668]LogBlueprintUserMessages: Mobs_C_73
-[2015.04.26-00.28.55:786][701]LogBlueprintUserMessages: Mobs_C_94
-[2015.04.26-00.28.56:464][743]LogBlueprintUserMessages: Mobs_C_96
-[2015.04.26-00.28.57:060][780]LogBlueprintUserMessages: Mobs_C_98
-[2015.04.26-00.28.57:060][780]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.57:108][783]LogBlueprintUserMessages: Mobs_C_98
-[2015.04.26-00.28.57:108][783]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.57:157][786]LogBlueprintUserMessages: Mobs_C_98
-[2015.04.26-00.28.57:706][820]LogBlueprintUserMessages: Mobs_C_77
-[2015.04.26-00.28.58:528][871]LogBlueprintUserMessages: Mobs_C_100
-[2015.04.26-00.28.58:528][871]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.58:577][874]LogBlueprintUserMessages: Mobs_C_100
-[2015.04.26-00.28.58:577][874]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.58:641][878]LogBlueprintUserMessages: Mobs_C_100
-[2015.04.26-00.28.58:641][878]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.58:835][890]LogBlueprintUserMessages: Mobs_C_75
-[2015.04.26-00.28.58:835][890]LogBlueprintUserMessages: reload
-[2015.04.26-00.28.58:884][893]LogBlueprintUserMessages: Mobs_C_75
-[2015.04.26-00.28.59:011][901]LogBlueprintUserMessages: Mobs_C_87
-[2015.04.26-00.28.59:013][901]LogBlueprintUserMessages: Mobs_C_80
-[2015.04.26-00.28.59:770][948]LogBlueprintUserMessages: Mobs_C_102
-[2015.04.26-00.29.00:077][967]LogBlueprintUserMessages: Mobs_C_85
-[2015.04.26-00.29.00:077][967]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.00:109][969]LogBlueprintUserMessages: Mobs_C_85
-[2015.04.26-00.29.00:109][969]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.00:463][991]LogBlueprintUserMessages: Mobs_C_71
-[2015.04.26-00.29.00:463][991]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.00:511][994]LogBlueprintUserMessages: Mobs_C_71
-[2015.04.26-00.29.00:511][994]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.01:141][ 33]LogBlueprintUserMessages: Mobs_C_82
-[2015.04.26-00.29.01:141][ 33]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.01:625][ 63]LogBlueprintUserMessages: Mobs_C_104
-[2015.04.26-00.29.01:625][ 63]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.01:673][ 66]LogBlueprintUserMessages: Mobs_C_104
-[2015.04.26-00.29.02:480][116]LogBlueprintUserMessages: Mobs_C_90
-[2015.04.26-00.29.02:495][117]LogBlueprintUserMessages: Mobs_C_105
-[2015.04.26-00.29.02:495][117]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.02:544][120]LogBlueprintUserMessages: Mobs_C_105
-[2015.04.26-00.29.02:544][120]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.02:593][123]LogBlueprintUserMessages: Mobs_C_105
-[2015.04.26-00.29.02:818][137]LogBlueprintUserMessages: Mobs_C_83
-[2015.04.26-00.29.02:947][145]LogBlueprintUserMessages: Mobs_C_107
-[2015.04.26-00.29.03:108][155]LogBlueprintUserMessages: Mobs_C_69
-[2015.04.26-00.29.03:705][192]LogBlueprintUserMessages: Mobs_C_108
-[2015.04.26-00.29.03:705][192]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.03:754][195]LogBlueprintUserMessages: Mobs_C_108
-[2015.04.26-00.29.03:754][195]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.03:786][197]LogBlueprintUserMessages: Mobs_C_108
-[2015.04.26-00.29.03:786][197]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.04:447][238]LogBlueprintUserMessages: Mobs_C_82
-[2015.04.26-00.29.04:447][238]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.04:480][240]LogBlueprintUserMessages: Mobs_C_82
-[2015.04.26-00.29.05:560][307]LogBlueprintUserMessages: Mobs_C_110
-[2015.04.26-00.29.05:560][307]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.05:608][310]LogBlueprintUserMessages: Mobs_C_110
-[2015.04.26-00.29.05:948][331]LogBlueprintUserMessages: Mobs_C_95
-[2015.04.26-00.29.05:948][331]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.05:996][334]LogBlueprintUserMessages: Mobs_C_95
-[2015.04.26-00.29.05:996][334]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.06:319][354]LogBlueprintUserMessages: Mobs_C_111
-[2015.04.26-00.29.07:189][408]LogBlueprintUserMessages: Mobs_C_101
-[2015.04.26-00.29.07:933][454]LogBlueprintUserMessages: Mobs_C_91
-[2015.04.26-00.29.07:933][454]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.07:980][457]LogBlueprintUserMessages: Mobs_C_91
-[2015.04.26-00.29.09:092][526]LogBlueprintUserMessages: Mobs_C_97
-[2015.04.26-00.29.09:093][526]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.09:141][529]LogBlueprintUserMessages: Mobs_C_97
-[2015.04.26-00.29.09:141][529]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.10:045][585]LogBlueprintUserMessages: Mobs_C_93
-[2015.04.26-00.29.10:045][585]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.10:093][588]LogBlueprintUserMessages: Mobs_C_93
-[2015.04.26-00.29.10:093][588]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.11:302][663]LogBlueprintUserMessages: Mobs_C_106
-[2015.04.26-00.29.12:931][764]LogBlueprintUserMessages: Mobs_C_109
-[2015.04.26-00.29.12:931][764]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.12:979][767]LogBlueprintUserMessages: Mobs_C_109
-[2015.04.26-00.29.14:624][869]LogBlueprintUserMessages: Mobs_C_103
-[2015.04.26-00.29.16:012][955]LogBlueprintUserMessages: Mobs_C_112
-[2015.04.26-00.29.16:012][955]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.16:060][958]LogBlueprintUserMessages: Mobs_C_112
-[2015.04.26-00.29.17:448][ 44]LogBlueprintUserMessages: Mobs_C_99
-[2015.04.26-00.29.17:448][ 44]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.17:496][ 47]LogBlueprintUserMessages: Mobs_C_99
-[2015.04.26-00.29.17:496][ 47]LogBlueprintUserMessages: reload
-[2015.04.26-00.29.21:021][264]LogEngine: All Windows Closed
-[2015.04.26-00.29.21:021][264]LogWindows: FPlatformMisc::RequestExit(0)
-[2015.04.26-00.29.21:030][265]LogExit: Preparing to exit.
-[2015.04.26-00.29.21:160][265]LogExit: Game engine shut down
-[2015.04.26-00.29.21:161][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E74E520
-[2015.04.26-00.29.21:228][265]LogExit: Object subsystem successfully closed.
-[2015.04.26-00.29.21:282][265]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (104)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module AutomationWorker (103)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module CharacterAI (102)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module AITestSuite (101)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module AIModule (99)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (96)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module HTTP (95)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module Analytics (93)
-[2015.04.26-00.29.21:490][265]LogModuleManager: Shutting down and abandoning module ProfilerService (92)
-[2015.04.26-00.29.21:588][265]LogModuleManager: Shutting down and abandoning module TaskGraph (91)
-[2015.04.26-00.29.21:588][265]LogModuleManager: Shutting down and abandoning module SlateRemote (90)
-[2015.04.26-00.29.21:588][265]LogModuleManager: Shutting down and abandoning module LeapMotionController (89)
-[2015.04.26-00.29.21:595][265]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (88)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module CableComponent (87)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module DesktopPlatform (86)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (85)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module HotReload (84)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (83)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module UObjectPlugin (82)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (81)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module GitSourceControl (80)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module SourceControl (79)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (78)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module BlankPlugin (77)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module Paper2D (74)
-[2015.04.26-00.29.21:596][265]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.04.26-00.29.21:599][265]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.04.26-00.29.21:599][265]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (69)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (64)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module MessageLog (63)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module Sequencer (62)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module AssetTools (61)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module UMG (59)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module Slate (58)
-[2015.04.26-00.29.21:600][265]LogModuleManager: Shutting down and abandoning module EditorStyle (57)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module SessionServices (56)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (55)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (54)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module XAudio2 (53)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module Networking (51)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module Core (50)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module KismetCompiler (49)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module PhysXFormats (48)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module MeshUtilities (47)
-[2015.04.26-00.29.21:604][265]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
-[2015.04.26-00.29.21:701][265]LogDerivedDataCache: Shutdown
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.04.26-00.29.21:701][265]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.04.26-00.29.21:702][265]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.04.26-00.29.21:702][265]LogExit: Exiting.
-[2015.04.26-00.29.21:705][265]Log file closed, 04/26/15 02:29:21
+[2015.04.27-23.56.15:376][  0]LogContentStreaming: Texture pool size is 200.000000MB
+[2015.04.27-23.56.17:253][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.27-23.56.17:657][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.27-23.56.17:704][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.27-23.56.17:757][  0]LogDerivedDataCache: Loaded boot cache 0.05s 40MB ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc.
+[2015.04.27-23.56.17:757][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/Boot.ddc
+[2015.04.27-23.56.17:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Ingenuity/IngenuityBasic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.27-23.56.17:757][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.27-23.56.17:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.27-23.56.17:757][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.04.27-23.56.17:770][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.04.27-23.56.17:770][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.04.27-23.56.17:770][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.04.27-23.56.18:009][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.27-23.56.18:009][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.27-23.56.18:308][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.27-23.56.18:659][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../Documents/Ingenuity/IngenuityBasic/Content/Movies/Default_Startup.mp4
+[2015.04.27-23.56.18:772][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.27-23.56.18:772][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.27-23.56.18:792][  0]SourceControl: Info Source control is disabled
+[2015.04.27-23.56.18:792][  0]SourceControl: Info Source control is disabled
+[2015.04.27-23.56.18:792][  0]SourceControl: Info Source control is disabled
+[2015.04.27-23.56.18:800][  0]SourceControl: Info Source control is disabled
+[2015.04.27-23.56.18:890][  0]LogObj: 24141 objects as part of root set at end of initial load.
+[2015.04.27-23.56.18:890][  0]LogUObjectAllocator: 5034576 out of 0 bytes used by permanent object pool.
+[2015.04.27-23.56.18:953][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.04.27-23.56.18:953][  0]LogEngine: Initializing Engine...
+[2015.04.27-23.56.22:116][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.27-23.56.22:126][  0]LogInit: FAudioDevice initialized.
+[2015.04.27-23.56.22:131][  0]LogInit: Texture streaming: Enabled
+[2015.04.27-23.56.22:189][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.27-23.56.22:189][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
+[2015.04.27-23.56.22:190][  0]LogAnalytics: SetUserId 92f236fd4abf3ad736ca67a71ac17b00|82d0a04204254179a8e7c8a211110ec7|b3756103-6e77-4ae0-841f-8cf86ad08b6c
+[2015.04.27-23.56.22:190][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2015.04.27-23.56.22:243][  0]LogNet: Browse: /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel?Name=Player
+[2015.04.27-23.56.22:243][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel?Name=Player
+[2015.04.27-23.56.22:253][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.27-23.56.22:253][  0]LogMemory: Process Physical Memory: 282.29 MB used, 283.75 MB peak
+[2015.04.27-23.56.22:253][  0]LogMemory: Process Virtual Memory: 256.91 MB used, 259.18 MB peak
+[2015.04.27-23.56.22:253][  0]LogMemory: Physical Memory: 4652.88 MB used, 8108.36 MB total
+[2015.04.27-23.56.22:253][  0]LogMemory: Virtual Memory: 754.55 MB used, 8388608.00 MB total
+[2015.04.27-23.56.22:253][  0]LogMemory: 
+[2015.04.27-23.56.22:253][  0]Allocator Stats for TBB: (not implemented)
+[2015.04.27-23.56.22:551][  0]LogAssetRegistry: FAssetRegistry took 0.0000 seconds to start up
+[2015.04.27-23.56.22:883][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.04.27-23.56.22:883][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.04.27-23.56.22:883][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.04.27-23.56.22:884][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.04.27-23.56.22:884][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.04.27-23.56.22:884][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.04.27-23.56.22:885][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.04.27-23.56.22:887][  0]LogBlueprint:Warning: [compiler] Warning [0009.99] Compile of IngenuityCharacter successful, but with 7 Warning(s) [in 10 ms]
+[2015.04.27-23.56.22:887][  0]LogBlueprint:Warning: [compiler] Warning [0009.99] Compile of IngenuityCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.04.27-23.56.22:887][  0]LogBlueprint:Warning: [compiler] Warning [0009.99] Compile of IngenuityCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.04.27-23.56.22:887][  0]LogBlueprint:Warning: [compiler] Warning [0009.99] Compile of IngenuityCharacter successful, but with 10 Warning(s) [in 0 ms]
+[2015.04.27-23.56.22:995][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.04.27-23.56.22:995][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.04.27-23.56.22:995][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.04.27-23.56.22:996][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.04.27-23.56.22:996][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.04.27-23.56.22:996][  0]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.04.27-23.56.22:997][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.04.27-23.56.22:998][  0]LogBlueprint:Warning: [compiler] Warning [0010.10] Compile of IngenuityCharacter successful, but with 7 Warning(s) [in 9 ms]
+[2015.04.27-23.56.22:999][  0]LogBlueprint:Warning: [compiler] Warning [0010.10] Compile of IngenuityCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.04.27-23.56.23:248][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2015.04.27-23.56.23:249][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.27-23.56.23:249][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/StarterContent/Textures/T_Metal_Gold_D.T_Metal_Gold_D
+[2015.04.27-23.56.23:272][  0]LogWorld: Game class is 'IngenuityGameMode_C'
+[2015.04.27-23.56.23:300][  0]LogAIModule: Creating AISystem for world HardLevel
+[2015.04.27-23.56.23:302][  0]LogWorld: Bringing World /Temp/Autosaves/Game/IngenuityStarter/Levels/UEDPCHardLevel.HardLevel up for play (max tick rate 0) at 2015.04.28-01.56.23
+[2015.04.27-23.56.23:302][  0]LogWorld: Bringing up level for play took: 0.002263
+[2015.04.27-23.56.23:308][  0]LogInit:Display: Game Engine Initialized.
+[2015.04.27-23.56.23:551][  0]LogLoad: Full Startup: 10.65 seconds (BP compile: 0.38 seconds)
+[2015.04.27-23.56.23:680][  2]LogRenderer:Warning: Reallocating scene render targets to support 640x360 (Frame:2).
+[2015.04.27-23.56.59:541][208]LogEngine: All Windows Closed
+[2015.04.27-23.56.59:541][208]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.04.27-23.56.59:581][209]LogExit: Preparing to exit.
+[2015.04.27-23.56.59:665][209]LogExit: Game engine shut down
+[2015.04.27-23.56.59:665][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C5B9C60
+[2015.04.27-23.56.59:724][209]LogExit: Object subsystem successfully closed.
+[2015.04.27-23.56.59:759][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (104)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (103)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module CharacterAI (102)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module AITestSuite (101)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (96)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module HTTP (95)
+[2015.04.27-23.57.00:571][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
+[2015.04.27-23.57.00:572][209]LogModuleManager: Shutting down and abandoning module Analytics (93)
+[2015.04.27-23.57.00:572][209]LogModuleManager: Shutting down and abandoning module ProfilerService (92)
+[2015.04.27-23.57.00:661][209]LogModuleManager: Shutting down and abandoning module TaskGraph (91)
+[2015.04.27-23.57.00:661][209]LogModuleManager: Shutting down and abandoning module SlateRemote (90)
+[2015.04.27-23.57.00:661][209]LogModuleManager: Shutting down and abandoning module LeapMotionController (89)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (88)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module CableComponent (87)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (86)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (85)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module HotReload (84)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (83)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (82)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (81)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (80)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module SourceControl (79)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (78)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module BlankPlugin (77)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2015.04.27-23.57.00:667][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.04.27-23.57.00:672][209]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.04.27-23.57.00:672][209]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (69)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (64)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module MessageLog (63)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module Sequencer (62)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module Slate (58)
+[2015.04.27-23.57.00:673][209]LogModuleManager: Shutting down and abandoning module EditorStyle (57)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module SessionServices (56)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (55)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (54)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module XAudio2 (53)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module Networking (51)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module Core (50)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (49)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module PhysXFormats (48)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (47)
+[2015.04.27-23.57.00:676][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
+[2015.04.27-23.57.00:762][209]LogDerivedDataCache: Shutdown
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.27-23.57.00:762][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.27-23.57.00:763][209]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.27-23.57.00:764][209]LogExit: Exiting.
+[2015.04.27-23.57.00:766][209]Log file closed, 04/28/15 01:57:00
