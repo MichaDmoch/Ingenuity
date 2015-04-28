@@ -1,0 +1,86 @@
+Attribute MobKlasse
+
+Array Zauber/Fallenresistenz (z.B verminderter Schaden durch Feuer bei dem Drachenmob)
+Fortbewegungsmöglichkeiten (laufen, hüpfen, fliegen)
+Intelligenzwert/Gefahreneinschätzung
+Aggresivität
+beladen ja/nein
+ZauberZustände (gefroren, brennend, etc.)  --> vieleicht als Array
+vieleicht Gewicht für diverse Fallen
+Lebenspunkte
+
+
+
+
+
+
+standard Verhalten
+
+gehe zur Energiequelle, wenn: beladung=false
+klaue Energie, wenn: Energiequelle in unmittelbarer nähe.
+gehe zum Ausgang, wenn: beladung=true
+
+Spieler angreifen, wenn: Distanz zum spieler sehr gering, Spieler in Sicht, beladung=false AngriffsDelayTimer=0
+
+
+
+
+
+
+
+spezielle Verhalten
+
+
+Skelett
+-standard
+
+
+Ork
+-gruppiert sich
+-sturmangriff
+
+Mumie
+-Standard
+
+Elfe
+-hält Abstand zum Spieler
+-vieleicht Fernkampf mit Bogen (wenn wir Animation hin bekommen)
+-spawnt zusammen mit Wolf als Tier
+
+Zwerg
+-Sturmangriff auf Spieler
+-blocken (blockt ersten Angriff, lädt sich dann wieder auf)
+
+Zombie
+-dumm
+-lässt manchmal Energie fallen, um Spieler anzugreifen
+
+Wolf
+-kann Spieler riechen (Angriff auch ohne Sichtkontakt)
+-spawnt mit Elfe zusammen
+-kann keine Energie tragen
+-greift an während Elfe Energie klaut
+
+Tintenfisch
+-kann schwimmen??
+
+
+Geist
+-oder auf hoher distanz unsichtbar
+-greifen nicht an
+
+
+Zauberer
+-verschiedene Zauber (noch nichts konkretes) zB. Supportzauber und Debuffs
+
+
+Drache
+- Feuerball angriff
+
+Dämon
+- höchste Priorität: Spieler angreifen. Versetzt Spieler mit Angriff in Starre.
+  wenn Gegner in Starre versetzt: gehe zur Energiequelle
+- Kommandanten System
+
+Fledermaus
+- schnelle, teils zufällige bewegungen (unvorhersehbar)
